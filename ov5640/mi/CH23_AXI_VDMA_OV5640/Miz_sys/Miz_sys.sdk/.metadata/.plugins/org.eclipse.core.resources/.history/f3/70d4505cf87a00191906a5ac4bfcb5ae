@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]K:\MZ7XA\code\02\02_example_SOC\CH21_AXI_VDMA_OV5640\Miz_sys\Miz_sys.sdk\fsbl\Debug\fsbl.elf
+	K:\MZ7XA\code\02\02_example_SOC\CH21_AXI_VDMA_OV5640\Miz_sys\Miz_sys.sdk\system_wrapper_hw_platform_0\system_wrapper.bit
+	K:\MZ7XA\code\02\02_example_SOC\CH21_AXI_VDMA_OV5640\Miz_sys\Miz_sys.sdk\VDMA_Test\Debug\VDMA_Test.elf
+}

@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]L:\REV2019\MZ7XAB\MZ7XA_7020\02_example_SOC\CH23_AXI_VDMA_OV5640\Miz_sys\Miz_sys.sdk\fsbl\Debug\fsbl.elf
+	L:\REV2019\MZ7XAB\MZ7XA_7020\02_example_SOC\CH23_AXI_VDMA_OV5640\Miz_sys\Miz_sys.sdk\system_wrapper_hw_platform_0\system_wrapper.bit
+	L:\REV2019\MZ7XAB\MZ7XA_7020\02_example_SOC\CH23_AXI_VDMA_OV5640\Miz_sys\Miz_sys.sdk\VDMA_Test\Debug\VDMA_Test.elf
+}

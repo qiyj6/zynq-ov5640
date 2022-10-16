@@ -1,0 +1,41 @@
+2022-10-16T20:13:47.510044100255-20:13:47 **** Incremental Build of configuration Debug for project mi_cam_config_app ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/main.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/zbl/Desktop/ov5640/vitis/mi_cam_config/export/mi_cam_config/sw/mi_cam_config/domain_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-../src/main.c: In function 'led_init':
+000/mi_cam_config_app/src/main.c36-1-1variable 'xStatus' set but not used [-Wunused-but-set-variable]1-../src/main.c:36:7: warning: variable 'xStatus' set but not used [-Wunused-but-set-variable]
+000-   36 |   int xStatus;
+000-      |       ^~~~~~~
+000-../src/main.c: At top level:
+000/mi_cam_config_app/src/main.c58-1-1return type of 'main' is not 'int' [-Wmain]1-../src/main.c:58:6: warning: return type of 'main' is not 'int' [-Wmain]
+000-   58 | void main()
+000-      |      ^~~~
+000-../src/main.c: In function 'led_init':
+000/mi_cam_config_app/src/main.c48-1-1control reaches end of non-void function [-Wreturn-type]1-../src/main.c:48:1: warning: control reaches end of non-void function [-Wreturn-type]
+000-   48 | }
+000-      | ^
+000-At top level:
+000/mi_cam_config_app/src/main.c29-1-1'led2' defined but not used [-Wunused-variable]1led2../src/main.c:29:12: warning: 'led2' defined but not used [-Wunused-variable]
+000-   29 | static int led2 = 56;     //MIO的范围是0-53，第一个EMIO为54
+000-      |            ^~~~
+000-'Finished building: ../src/main.c'
+000-' '
+000-'Building target: mi_cam_config_app.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/zbl/Desktop/ov5640/vitis/mi_cam_config/export/mi_cam_config/sw/mi_cam_config/domain_ps7_cortexa9_0/bsplib/lib -o "mi_cam_config_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: mi_cam_config_app.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size mi_cam_config_app.elf  |tee "mi_cam_config_app.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  27052	   1168	  22616	  50836	   c694	mi_cam_config_app.elf
+000-'Finished building: mi_cam_config_app.elf.size'
+000-' '
+00255-
+20:13:48 Build Finished (took 689ms)
+

@@ -1,0 +1,23 @@
+set_property SRC_FILE_INFO {cfile:f:/miz701N/7010/s3/S03_CH07_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc rfile:../Miz_sys.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:system_i/processing_system7_0/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:f:/miz701N/7010/s3/S03_CH07_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_0_0/system_clk_wiz_0_0.xdc rfile:../Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_0_0/system_clk_wiz_0_0.xdc id:2 order:EARLY scoped_inst:system_i/clk_wiz_0/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:F:/miz701N/7010/s3/S03_CH07_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/constrs_1/new/Miz_sys_pin.xdc rfile:../Miz_sys.srcs/constrs_1/new/Miz_sys_pin.xdc id:3} [current_design]
+set_property SRC_FILE_INFO {cfile:f:/miz701N/7010/s3/S03_CH07_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_v_axi4s_vid_out_0_0/system_v_axi4s_vid_out_0_0_clocks.xdc rfile:../Miz_sys.srcs/sources_1/bd/system/ip/system_v_axi4s_vid_out_0_0/system_v_axi4s_vid_out_0_0_clocks.xdc id:4 order:LATE scoped_inst:system_i/v_axi4s_vid_out_0/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:f:/miz701N/7010/s3/S03_CH07_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_v_vid_in_axi4s_0_0/system_v_vid_in_axi4s_0_0_clocks.xdc rfile:../Miz_sys.srcs/sources_1/bd/system/ip/system_v_vid_in_axi4s_0_0/system_v_vid_in_axi4s_0_0_clocks.xdc id:5 order:LATE scoped_inst:system_i/v_vid_in_axi4s_0/inst} [current_design]
+set_property src_info {type:SCOPED_XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter clk_fpga_0 0.3
+set_property src_info {type:SCOPED_XDC file:1 line:24 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter clk_fpga_1 1.2
+set_property src_info {type:SCOPED_XDC file:2 line:57 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter [get_clocks -of_objects [get_ports clk_in1]] 0.1
+set_property src_info {type:XDC file:3 line:63 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports HDMI_HPD]
+set_property src_info {type:XDC file:3 line:64 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R19 [get_ports HDMI_HPD]
+set_property src_info {type:SCOPED_XDC file:4 line:10 export:INPUT save:INPUT read:READ} [current_design]
+set_max_delay -from [get_cells COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/*rd_pntr_gc_reg[*]] -to [get_cells COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/*gsync_stage[*].wr_stg_inst/Q_reg_reg[*]] -datapath_only [get_property -min PERIOD [get_clocks -of_objects [get_pins system_i/v_axi4s_vid_out_0/inst/vid_io_out_clk]]]
+set_property src_info {type:SCOPED_XDC file:4 line:11 export:INPUT save:INPUT read:READ} [current_design]
+set_max_delay -from [get_cells COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/*wr_pntr_gc_reg[*]] -to [get_cells COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/*gsync_stage[*].rd_stg_inst/Q_reg_reg[*]] -datapath_only [get_property -min PERIOD [get_clocks -of_objects [get_pins system_i/v_axi4s_vid_out_0/inst/aclk]]]
+set_property src_info {type:SCOPED_XDC file:5 line:10 export:INPUT save:INPUT read:READ} [current_design]
+set_max_delay -from [get_cells COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/*rd_pntr_gc_reg[*]] -to [get_cells COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/*gsync_stage[*].wr_stg_inst/Q_reg_reg[*]] -datapath_only [get_property -min PERIOD [get_clocks -of_objects [get_pins system_i/v_vid_in_axi4s_0/inst/aclk]]]
+set_property src_info {type:SCOPED_XDC file:5 line:11 export:INPUT save:INPUT read:READ} [current_design]
+set_max_delay -from [get_cells COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/*wr_pntr_gc_reg[*]] -to [get_cells COUPLER_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/*gsync_stage[*].rd_stg_inst/Q_reg_reg[*]] -datapath_only [get_property -min PERIOD [get_clocks -of_objects [get_pins system_i/v_vid_in_axi4s_0/inst/vid_io_in_clk]]]

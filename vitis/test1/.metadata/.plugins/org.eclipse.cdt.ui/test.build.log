@@ -1,0 +1,37 @@
+20:32:27 **** Incremental Build of configuration Debug for project test ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/export/system_wrapper/sw/system_wrapper/domain_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'led_init':
+../src/main.c:36:7: warning: variable 'xStatus' set but not used [-Wunused-but-set-variable]
+   36 |   int xStatus;
+      |       ^~~~~~~
+../src/main.c: At top level:
+../src/main.c:58:6: warning: return type of 'main' is not 'int' [-Wmain]
+   58 | void main()
+      |      ^~~~
+../src/main.c: In function 'led_init':
+../src/main.c:48:1: warning: control reaches end of non-void function [-Wreturn-type]
+   48 | }
+      | ^
+'Finished building: ../src/main.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/export/system_wrapper/sw/system_wrapper/domain_ps7_cortexa9_0/bsplib/lib -o "test.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27116	   1168	  22616	  50900	   c6d4	test.elf
+'Finished building: test.elf.size'
+' '
+
+20:32:28 Build Finished (took 600ms)
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;OV5640_VDMA_Test/src/ov5640_AF.h&apos;" deleteContents="false" description="Delete resource &apos;OV5640_VDMA_Test/src/ov5640_AF.h&apos;" element1="/OV5640_VDMA_Test/src/ov5640_AF.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1498551480818"/>&#x0A;<refactoring comment="Delete resource &apos;OV5640_VDMA_Test/src/ov5640_AF_setting.h&apos;" deleteContents="false" description="Delete resource &apos;OV5640_VDMA_Test/src/ov5640_AF_setting.h&apos;" element1="/OV5640_VDMA_Test/src/ov5640_AF_setting.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1498552752781"/>
+</session>

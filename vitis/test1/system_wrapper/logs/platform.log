@@ -1,0 +1,2444 @@
+TRACE::2022-10-16.20:22:51::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:51::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:51::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:53::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:22:53::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:53::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:22:53::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-10-16.20:22:56::SCWPlatform::Opened new HwDB with name system_wrapper_0
+TRACE::2022-10-16.20:22:56::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-10-16.20:22:56::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper"
+		}]
+}
+TRACE::2022-10-16.20:22:56::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-10-16.20:22:56::SCWDomain::checking for install qemu data   : 
+TRACE::2022-10-16.20:22:56::SCWDomain:: Using the QEMU Data from install at  : D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/
+TRACE::2022-10-16.20:22:56::SCWDomain:: Using the QEMU args  from install at  : D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2022-10-16.20:22:56::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:22:56::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:22:56::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:22:56::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:22:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:22:56::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:22:56::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:22:56::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:22:56::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:22:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:22:56::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:22:56::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:22:56::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:22:56::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:22:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:22:56::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2022-10-16.20:22:56::SCWPlatform::Generating the sources  .
+TRACE::2022-10-16.20:22:56::SCWBDomain::Generating boot domain sources.
+TRACE::2022-10-16.20:22:56::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2022-10-16.20:22:56::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:22:56::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:22:56::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:22:56::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:22:56::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:22:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:22:56::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:22:56::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-10-16.20:22:56::SCWMssOS::No sw design opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:22:56::SCWMssOS::mss does not exists at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:22:56::SCWMssOS::Creating sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:22:56::SCWMssOS::Adding the swdes entry, created swdb C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:22:56::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:22:56::SCWMssOS::Writing mss at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:22:56::SCWMssOS::Completed writing the mss file at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2022-10-16.20:22:56::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-10-16.20:22:56::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-10-16.20:22:56::SCWBDomain::Completed writing the mss file at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2022-10-16.20:23:04::SCWPlatform::Generating sources Done.
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:04::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss||
+
+KEYINFO::2022-10-16.20:23:04::SCWMssOS::Could not open the swdb for C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+KEYINFO::2022-10-16.20:23:04::SCWMssOS::Could not open the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss is not found
+
+TRACE::2022-10-16.20:23:04::SCWMssOS::Cleared the swdb table entry
+TRACE::2022-10-16.20:23:04::SCWMssOS::No sw design opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::mss exists loading the mss file  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::Opened the sw design from mss  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::Adding the swdes entry C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-10-16.20:23:04::SCWMssOS::updating the scw layer about changes
+TRACE::2022-10-16.20:23:04::SCWMssOS::Opened the sw design.  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::Saving the mss changes C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-16.20:23:04::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-16.20:23:04::SCWMssOS::Commit changes completed.
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:04::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:04::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:04::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:04::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:04::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:04::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"59d07a3cce2e0ec28883a1dea47d00f1",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-10-16.20:23:04::SCWMssOS::Saving the mss changes C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-16.20:23:04::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-16.20:23:04::SCWMssOS::Commit changes completed.
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:04::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:04::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:04::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:04::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:04::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:04::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"59d07a3cce2e0ec28883a1dea47d00f1",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-10-16.20:23:04::SCWDomain::checking for install qemu data   : 
+TRACE::2022-10-16.20:23:04::SCWDomain:: Using the QEMU Data from install at  : D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/
+TRACE::2022-10-16.20:23:04::SCWDomain:: Using the QEMU args  from install at  : D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:04::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:04::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:04::SCWMssOS::No sw design opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::mss does not exists at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::Creating sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::Adding the swdes entry, created swdb C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss with des name C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::Writing mss at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:04::SCWMssOS::Completed writing the mss file at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp
+TRACE::2022-10-16.20:23:04::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-10-16.20:23:04::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-10-16.20:23:04::SCWMssOS::Completed writing the mss file at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp
+TRACE::2022-10-16.20:23:04::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Saving the mss changes C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Commit changes completed.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Saving the mss changes C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Running validate of swdbs.
+KEYINFO::2022-10-16.20:23:06::SCWMssOS::Could not open the swdb for C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+KEYINFO::2022-10-16.20:23:06::SCWMssOS::Could not open the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss is not found
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Cleared the swdb table entry
+TRACE::2022-10-16.20:23:06::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2022-10-16.20:23:06::SCWMssOS::Writing the mss file completed C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Commit changes completed.
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"domain_ps7_cortexa9_0",
+			"sysDefaultDom":	"domain_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"59d07a3cce2e0ec28883a1dea47d00f1",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"domain_ps7_cortexa9_0",
+					"domainDispName":	"domain_ps7_cortexa9_0",
+					"domainDesc":	"domain_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"c19dbb2830428fd94a3d8636db01e7f9",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-10-16.20:23:06::SCWPlatform::Started generating the artifacts platform system_wrapper
+TRACE::2022-10-16.20:23:06::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-10-16.20:23:06::SCWPlatform::Started generating the artifacts for system configuration system_wrapper
+LOG::2022-10-16.20:23:06::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-10-16.20:23:06::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-10-16.20:23:06::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-10-16.20:23:06::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2022-10-16.20:23:06::SCWSystem::Checking the domain domain_ps7_cortexa9_0
+LOG::2022-10-16.20:23:06::SCWSystem::Not a boot domain 
+LOG::2022-10-16.20:23:06::SCWSystem::Started Processing the domain domain_ps7_cortexa9_0
+TRACE::2022-10-16.20:23:06::SCWDomain::Generating domain artifcats
+TRACE::2022-10-16.20:23:06::SCWMssOS::Generating standalone artifcats
+TRACE::2022-10-16.20:23:06::SCWMssOS::Copying the qemu file from  D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/export/system_wrapper/sw/system_wrapper/qemu/
+TRACE::2022-10-16.20:23:06::SCWMssOS::Copying the qemu file from  D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/export/system_wrapper/sw/system_wrapper/domain_ps7_cortexa9_0/qemu/
+TRACE::2022-10-16.20:23:06::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Completed writing the mss file at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp
+TRACE::2022-10-16.20:23:06::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-10-16.20:23:06::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-10-16.20:23:06::SCWDomain::Skipping the build for domain :  domain_ps7_cortexa9_0
+TRACE::2022-10-16.20:23:06::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-10-16.20:23:06::SCWMssOS::Copying to export directory.
+TRACE::2022-10-16.20:23:06::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-10-16.20:23:06::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2022-10-16.20:23:06::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2022-10-16.20:23:06::SCWSystem::Completed Processing the domain domain_ps7_cortexa9_0
+LOG::2022-10-16.20:23:06::SCWSystem::Completed Processing the sysconfig system_wrapper
+LOG::2022-10-16.20:23:06::SCWPlatform::Completed generating the artifacts for system configuration system_wrapper
+TRACE::2022-10-16.20:23:06::SCWPlatform::Started preparing the platform 
+TRACE::2022-10-16.20:23:06::SCWSystem::Writing the bif file for system config system_wrapper
+TRACE::2022-10-16.20:23:06::SCWSystem::dir created 
+TRACE::2022-10-16.20:23:06::SCWSystem::Writing the bif 
+TRACE::2022-10-16.20:23:06::SCWPlatform::Started writing the spfm file 
+TRACE::2022-10-16.20:23:06::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-10-16.20:23:06::SCWPlatform::Completed generating the platform
+TRACE::2022-10-16.20:23:06::SCWMssOS::Saving the mss changes C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Commit changes completed.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Saving the mss changes C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Commit changes completed.
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"domain_ps7_cortexa9_0",
+			"sysDefaultDom":	"domain_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"59d07a3cce2e0ec28883a1dea47d00f1",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"domain_ps7_cortexa9_0",
+					"domainDispName":	"domain_ps7_cortexa9_0",
+					"domainDesc":	"domain_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"c19dbb2830428fd94a3d8636db01e7f9",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-10-16.20:23:06::SCWPlatform::updated the xpfm file.
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Saving the mss changes C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Commit changes completed.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Saving the mss changes C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Commit changes completed.
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"domain_ps7_cortexa9_0",
+			"sysDefaultDom":	"domain_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"59d07a3cce2e0ec28883a1dea47d00f1",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"domain_ps7_cortexa9_0",
+					"domainDispName":	"domain_ps7_cortexa9_0",
+					"domainDesc":	"domain_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"c19dbb2830428fd94a3d8636db01e7f9",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Saving the mss changes C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Commit changes completed.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Saving the mss changes C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Commit changes completed.
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"domain_ps7_cortexa9_0",
+			"sysDefaultDom":	"domain_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"59d07a3cce2e0ec28883a1dea47d00f1",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"domain_ps7_cortexa9_0",
+					"domainDispName":	"domain_ps7_cortexa9_0",
+					"domainDesc":	"domain_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"c19dbb2830428fd94a3d8636db01e7f9",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-10-16.20:23:06::SCWPlatform::Started generating the artifacts platform system_wrapper
+TRACE::2022-10-16.20:23:06::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-10-16.20:23:06::SCWPlatform::Started generating the artifacts for system configuration system_wrapper
+LOG::2022-10-16.20:23:06::SCWSystem::Started Processing the domain domain_ps7_cortexa9_0
+TRACE::2022-10-16.20:23:06::SCWDomain::Generating domain artifcats
+TRACE::2022-10-16.20:23:06::SCWMssOS::Generating standalone artifcats
+TRACE::2022-10-16.20:23:06::SCWMssOS::Copying the qemu file from  D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/export/system_wrapper/sw/system_wrapper/qemu/
+TRACE::2022-10-16.20:23:06::SCWMssOS::Copying the qemu file from  D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/export/system_wrapper/sw/system_wrapper/domain_ps7_cortexa9_0/qemu/
+TRACE::2022-10-16.20:23:06::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Completed writing the mss file at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp
+TRACE::2022-10-16.20:23:06::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-10-16.20:23:06::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-10-16.20:23:06::SCWDomain::Building the domain as part of full build :  domain_ps7_cortexa9_0
+TRACE::2022-10-16.20:23:06::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-10-16.20:23:06::SCWMssOS::Copying to export directory.
+TRACE::2022-10-16.20:23:06::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-10-16.20:23:06::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2022-10-16.20:23:06::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2022-10-16.20:23:06::SCWSystem::Completed Processing the domain domain_ps7_cortexa9_0
+LOG::2022-10-16.20:23:06::SCWSystem::Completed Processing the sysconfig system_wrapper
+LOG::2022-10-16.20:23:06::SCWPlatform::Completed generating the artifacts for system configuration system_wrapper
+TRACE::2022-10-16.20:23:06::SCWPlatform::Started preparing the platform 
+TRACE::2022-10-16.20:23:06::SCWSystem::Writing the bif file for system config system_wrapper
+TRACE::2022-10-16.20:23:06::SCWSystem::dir created 
+TRACE::2022-10-16.20:23:06::SCWSystem::Writing the bif 
+TRACE::2022-10-16.20:23:06::SCWPlatform::Started writing the spfm file 
+TRACE::2022-10-16.20:23:06::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-10-16.20:23:06::SCWPlatform::Completed generating the platform
+TRACE::2022-10-16.20:23:06::SCWMssOS::Saving the mss changes C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Commit changes completed.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Saving the mss changes C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-16.20:23:06::SCWMssOS::Commit changes completed.
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:23:06::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:23:06::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:23:06::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:23:06::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"domain_ps7_cortexa9_0",
+			"sysDefaultDom":	"domain_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"59d07a3cce2e0ec28883a1dea47d00f1",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"domain_ps7_cortexa9_0",
+					"domainDispName":	"domain_ps7_cortexa9_0",
+					"domainDesc":	"domain_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"c19dbb2830428fd94a3d8636db01e7f9",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-10-16.20:23:06::SCWPlatform::updated the xpfm file.
+LOG::2022-10-16.20:24:42::SCWPlatform::Started generating the artifacts platform system_wrapper
+TRACE::2022-10-16.20:24:42::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-10-16.20:24:42::SCWPlatform::Started generating the artifacts for system configuration system_wrapper
+LOG::2022-10-16.20:24:42::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-10-16.20:24:42::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-10-16.20:24:42::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-10-16.20:24:42::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2022-10-16.20:24:42::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:24:42::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:24:42::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:24:42::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:24:42::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:24:42::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:24:42::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:24:42::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:24:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:24:42::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:24:42::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:24:42::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:24:42::SCWBDomain::Completed writing the mss file at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2022-10-16.20:24:42::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-10-16.20:24:42::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-10-16.20:24:42::SCWBDomain::System Command Ran  C:&  cd  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl & make 
+TRACE::2022-10-16.20:24:42::SCWBDomain::make -C zynq_fsbl_bsp
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[1]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_7/src"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/axivdma_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-10-16.20:24:42::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-10-16.20:24:42::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:42::SCWBDomain::rc/axivdma_v6_7/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:42::SCWBDomain::c/axivdma_v6_7/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2022-10-16.20:24:42::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2022-10-16.20:24:42::SCWBDomain::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:42::SCWBDomain::rc/coresightps_dcc_v1_7/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:42::SCWBDomain::c/coresightps_dcc_v1_7/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2022-10-16.20:24:42::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2022-10-16.20:24:42::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:42::SCWBDomain::rc/cpu_cortexa9_v2_9/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:42::SCWBDomain::c/cpu_cortexa9_v2_9/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_1/src"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-10-16.20:24:42::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-10-16.20:24:42::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:42::SCWBDomain::rc/ddrps_v1_1/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:42::SCWBDomain::c/ddrps_v1_1/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_6/src"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:42::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:42::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:42::SCWBDomain::rc/devcfg_v3_6/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:42::SCWBDomain::c/devcfg_v3_6/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_6/src"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-10-16.20:24:42::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-10-16.20:24:42::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:42::SCWBDomain::rc/dmaps_v2_6/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:42::SCWBDomain::c/dmaps_v2_6/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_11/src"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-10-16.20:24:42::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-10-16.20:24:42::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:42::SCWBDomain::rc/emacps_v3_11/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:42::SCWBDomain::c/emacps_v3_11/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_7/src"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:42::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:42::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:42::SCWBDomain::rc/gpiops_v3_7/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:42::SCWBDomain::c/gpiops_v3_7/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_7/src"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:42::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:42::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:42::SCWBDomain::rc/qspips_v3_7/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:42::SCWBDomain::c/qspips_v3_7/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_2/src"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:42::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:42::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:42::SCWBDomain::rc/scugic_v4_2/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:42::SCWBDomain::c/scugic_v4_2/src'
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_2/src"
+
+TRACE::2022-10-16.20:24:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-10-16.20:24:42::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-10-16.20:24:42::SCWBDomain::startfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:43::SCWBDomain::rc/scutimer_v2_2/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:43::SCWBDomain::c/scutimer_v2_2/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_2/src"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:43::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:43::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:43::SCWBDomain::rc/scuwdt_v2_2/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:43::SCWBDomain::c/scuwdt_v2_2/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_9/src"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2022-10-16.20:24:43::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2022-10-16.20:24:43::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:43::SCWBDomain::rc/sdps_v3_9/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:43::SCWBDomain::c/sdps_v3_9/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_2/src"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-10-16.20:24:43::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-10-16.20:24:43::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:43::SCWBDomain::rc/standalone_v7_2/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[3]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:43::SCWBDomain::rc/standalone_v7_2/src/profile'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[3]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:43::SCWBDomain::c/standalone_v7_2/src/profile'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:43::SCWBDomain::c/standalone_v7_2/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_9/src"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:43::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:43::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:43::SCWBDomain::rc/uartps_v3_9/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:43::SCWBDomain::c/uartps_v3_9/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_4/src"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:43::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:43::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:43::SCWBDomain::rc/xadcps_v2_4/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:43::SCWBDomain::c/xadcps_v2_4/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_3/src"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:43::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:43::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:43::SCWBDomain::rc/xilffs_v4_3/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:43::SCWBDomain::c/xilffs_v4_3/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:43::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:43::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:43::SCWBDomain::rc/xilrsa_v1_6/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:43::SCWBDomain::c/xilrsa_v1_6/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_7/src"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/axivdma_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2022-10-16.20:24:43::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2022-10-16.20:24:43::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:43::SCWBDomain::rc/axivdma_v6_7/src'
+
+TRACE::2022-10-16.20:24:43::SCWBDomain::"Compiling axivdma"
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:44::SCWBDomain::c/axivdma_v6_7/src'
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src"
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2022-10-16.20:24:44::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2022-10-16.20:24:44::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:44::SCWBDomain::rc/coresightps_dcc_v1_7/src'
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::"Compiling coresightps_dcc"
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:44::SCWBDomain::c/coresightps_dcc_v1_7/src'
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src"
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-10-16.20:24:44::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-10-16.20:24:44::SCWBDomain::ostartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:44::SCWBDomain::rc/cpu_cortexa9_v2_9/src'
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::"Compiling cpu_cortexa9"
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:44::SCWBDomain::c/cpu_cortexa9_v2_9/src'
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_1/src"
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2022-10-16.20:24:44::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2022-10-16.20:24:44::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:44::SCWBDomain::rc/ddrps_v1_1/src'
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::"Compiling ddrps"
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:44::SCWBDomain::c/ddrps_v1_1/src'
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_6/src"
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:24:44::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:24:44::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:44::SCWBDomain::rc/devcfg_v3_6/src'
+
+TRACE::2022-10-16.20:24:44::SCWBDomain::"Compiling devcfg"
+
+TRACE::2022-10-16.20:24:45::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:45::SCWBDomain::c/devcfg_v3_6/src'
+
+TRACE::2022-10-16.20:24:45::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_6/src"
+
+TRACE::2022-10-16.20:24:45::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2022-10-16.20:24:45::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2022-10-16.20:24:45::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:45::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:45::SCWBDomain::rc/dmaps_v2_6/src'
+
+TRACE::2022-10-16.20:24:45::SCWBDomain::"Compiling dmaps"
+
+TRACE::2022-10-16.20:24:45::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:45::SCWBDomain::c/dmaps_v2_6/src'
+
+TRACE::2022-10-16.20:24:45::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_11/src"
+
+TRACE::2022-10-16.20:24:45::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2022-10-16.20:24:45::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2022-10-16.20:24:45::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:45::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:45::SCWBDomain::rc/emacps_v3_11/src'
+
+TRACE::2022-10-16.20:24:45::SCWBDomain::"Compiling emacps"
+
+TRACE::2022-10-16.20:24:46::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:46::SCWBDomain::c/emacps_v3_11/src'
+
+TRACE::2022-10-16.20:24:46::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_7/src"
+
+TRACE::2022-10-16.20:24:46::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:24:46::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:24:46::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:46::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:46::SCWBDomain::rc/gpiops_v3_7/src'
+
+TRACE::2022-10-16.20:24:46::SCWBDomain::"Compiling gpiops"
+
+TRACE::2022-10-16.20:24:47::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:47::SCWBDomain::c/gpiops_v3_7/src'
+
+TRACE::2022-10-16.20:24:47::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_7/src"
+
+TRACE::2022-10-16.20:24:47::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:24:47::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:24:47::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:47::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:47::SCWBDomain::rc/qspips_v3_7/src'
+
+TRACE::2022-10-16.20:24:47::SCWBDomain::"Compiling qspips"
+
+TRACE::2022-10-16.20:24:48::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:48::SCWBDomain::c/qspips_v3_7/src'
+
+TRACE::2022-10-16.20:24:48::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_2/src"
+
+TRACE::2022-10-16.20:24:48::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:24:48::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:24:48::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:48::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:48::SCWBDomain::rc/scugic_v4_2/src'
+
+TRACE::2022-10-16.20:24:48::SCWBDomain::"Compiling scugic"
+
+TRACE::2022-10-16.20:24:48::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:48::SCWBDomain::c/scugic_v4_2/src'
+
+TRACE::2022-10-16.20:24:48::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_2/src"
+
+TRACE::2022-10-16.20:24:48::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-10-16.20:24:48::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-10-16.20:24:48::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:48::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:48::SCWBDomain::rc/scutimer_v2_2/src'
+
+TRACE::2022-10-16.20:24:48::SCWBDomain::"Compiling scutimer"
+
+TRACE::2022-10-16.20:24:49::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:49::SCWBDomain::c/scutimer_v2_2/src'
+
+TRACE::2022-10-16.20:24:49::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_2/src"
+
+TRACE::2022-10-16.20:24:49::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:24:49::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:24:49::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:49::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:49::SCWBDomain::rc/scuwdt_v2_2/src'
+
+TRACE::2022-10-16.20:24:49::SCWBDomain::"Compiling scuwdt"
+
+TRACE::2022-10-16.20:24:49::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:49::SCWBDomain::c/scuwdt_v2_2/src'
+
+TRACE::2022-10-16.20:24:49::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_9/src"
+
+TRACE::2022-10-16.20:24:49::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2022-10-16.20:24:49::SCWBDomain::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2022-10-16.20:24:49::SCWBDomain::les -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:49::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:49::SCWBDomain::rc/sdps_v3_9/src'
+
+TRACE::2022-10-16.20:24:49::SCWBDomain::"Compiling sdps"
+
+TRACE::2022-10-16.20:24:50::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:50::SCWBDomain::c/sdps_v3_9/src'
+
+TRACE::2022-10-16.20:24:50::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_2/src"
+
+TRACE::2022-10-16.20:24:50::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-10-16.20:24:50::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-10-16.20:24:50::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:50::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:50::SCWBDomain::rc/standalone_v7_2/src'
+
+TRACE::2022-10-16.20:24:50::SCWBDomain::"Compiling standalone"
+
+TRACE::2022-10-16.20:24:52::SCWBDomain::make[3]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:52::SCWBDomain::rc/standalone_v7_2/src/profile'
+
+TRACE::2022-10-16.20:24:52::SCWBDomain::make[3]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:52::SCWBDomain::c/standalone_v7_2/src/profile'
+
+TRACE::2022-10-16.20:24:52::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:52::SCWBDomain::c/standalone_v7_2/src'
+
+TRACE::2022-10-16.20:24:52::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_9/src"
+
+TRACE::2022-10-16.20:24:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:24:52::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:24:52::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:52::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:52::SCWBDomain::rc/uartps_v3_9/src'
+
+TRACE::2022-10-16.20:24:52::SCWBDomain::"Compiling uartps"
+
+TRACE::2022-10-16.20:24:53::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:53::SCWBDomain::c/uartps_v3_9/src'
+
+TRACE::2022-10-16.20:24:53::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_4/src"
+
+TRACE::2022-10-16.20:24:53::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:24:53::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:24:53::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:53::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:53::SCWBDomain::rc/xadcps_v2_4/src'
+
+TRACE::2022-10-16.20:24:53::SCWBDomain::"Compiling xadcps"
+
+TRACE::2022-10-16.20:24:54::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:54::SCWBDomain::c/xadcps_v2_4/src'
+
+TRACE::2022-10-16.20:24:54::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_3/src"
+
+TRACE::2022-10-16.20:24:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:24:54::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:24:54::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:54::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:54::SCWBDomain::rc/xilffs_v4_3/src'
+
+TRACE::2022-10-16.20:24:54::SCWBDomain::"Compiling XilFFs Library"
+
+TRACE::2022-10-16.20:24:55::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:55::SCWBDomain::c/xilffs_v4_3/src'
+
+TRACE::2022-10-16.20:24:55::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2022-10-16.20:24:55::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:24:55::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:24:55::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:55::SCWBDomain::make[2]: Entering directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libs
+TRACE::2022-10-16.20:24:55::SCWBDomain::rc/xilrsa_v1_6/src'
+
+TRACE::2022-10-16.20:24:55::SCWBDomain::make[2]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsr
+TRACE::2022-10-16.20:24:55::SCWBDomain::c/xilrsa_v1_6/src'
+
+TRACE::2022-10-16.20:24:55::SCWBDomain::'Finished building libraries'
+
+TRACE::2022-10-16.20:24:55::SCWBDomain::make[1]: Leaving directory 'C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2022-10-16.20:24:55::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cort
+TRACE::2022-10-16.20:24:55::SCWBDomain::exa9_0/include -I.
+
+TRACE::2022-10-16.20:24:55::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_
+TRACE::2022-10-16.20:24:55::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2022-10-16.20:24:55::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2022-10-16.20:24:55::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2022-10-16.20:24:55::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c image_mover.c -o image_mover.o -Izynq
+TRACE::2022-10-16.20:24:55::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2022-10-16.20:24:55::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2022-10-16.20:24:55::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2022-10-16.20:24:55::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_f
+TRACE::2022-10-16.20:24:55::SCWBDomain::sbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2022-10-16.20:24:55::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c main.c -o main.o -Izynq_fsbl_bsp/ps7_
+TRACE::2022-10-16.20:24:55::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2022-10-16.20:24:56::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2022-10-16.20:24:56::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2022-10-16.20:24:56::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_
+TRACE::2022-10-16.20:24:56::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2022-10-16.20:24:56::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c ps7_init.c -o ps7_init.o -Izynq_fsbl_
+TRACE::2022-10-16.20:24:56::SCWBDomain::bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2022-10-16.20:24:56::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_
+TRACE::2022-10-16.20:24:56::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2022-10-16.20:24:56::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c fsbl_handoff.S -o fsbl_handoff.o -Izy
+TRACE::2022-10-16.20:24:56::SCWBDomain::nq_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2022-10-16.20:24:56::SCWBDomain::arm-none-eabi-gcc -o executable.elf  sd.o  nand.o  nor.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  qspi.o  ps7_init.o
+TRACE::2022-10-16.20:24:56::SCWBDomain::  pcap.o  fsbl_handoff.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2022-10-16.20:24:56::SCWBDomain::hard -Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxi
+TRACE::2022-10-16.20:24:56::SCWBDomain::l,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                   -Wl,--gc-sections
+TRACE::2022-10-16.20:24:56::SCWBDomain:: -Lzynq_fsbl_bsp/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2022-10-16.20:24:56::SCWSystem::Checking the domain domain_ps7_cortexa9_0
+LOG::2022-10-16.20:24:56::SCWSystem::Not a boot domain 
+LOG::2022-10-16.20:24:56::SCWSystem::Started Processing the domain domain_ps7_cortexa9_0
+TRACE::2022-10-16.20:24:56::SCWDomain::Generating domain artifcats
+TRACE::2022-10-16.20:24:56::SCWMssOS::Generating standalone artifcats
+TRACE::2022-10-16.20:24:56::SCWMssOS::Copying the qemu file from  D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/export/system_wrapper/sw/system_wrapper/qemu/
+TRACE::2022-10-16.20:24:56::SCWMssOS::Copying the qemu file from  D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/export/system_wrapper/sw/system_wrapper/domain_ps7_cortexa9_0/qemu/
+TRACE::2022-10-16.20:24:56::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-10-16.20:24:56::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:24:56::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:24:56::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:24:56::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:24:56::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:24:56::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:24:56::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:24:56::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:24:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:24:56::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:24:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:24:56::SCWMssOS::Completed writing the mss file at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp
+TRACE::2022-10-16.20:24:56::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:24:56::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-10-16.20:24:56::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-10-16.20:24:56::SCWDomain::Building the domain as part of full build :  domain_ps7_cortexa9_0
+TRACE::2022-10-16.20:24:56::SCWMssOS::doing bsp build ... 
+TRACE::2022-10-16.20:24:56::SCWMssOS::System Command Ran  C: & cd  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp & make 
+TRACE::2022-10-16.20:24:56::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_7/src"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axivdma_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-10-16.20:24:56::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-10-16.20:24:56::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2022-10-16.20:24:56::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2022-10-16.20:24:56::SCWMssOS::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2022-10-16.20:24:56::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2022-10-16.20:24:56::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_1/src"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-10-16.20:24:56::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-10-16.20:24:56::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_6/src"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:56::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:56::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_6/src"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-10-16.20:24:56::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-10-16.20:24:56::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_11/src"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-10-16.20:24:56::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-10-16.20:24:56::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_7/src"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:56::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:56::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_7/src"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:56::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:56::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:56::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_2/src"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:57::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:57::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_2/src"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-10-16.20:24:57::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-10-16.20:24:57::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_2/src"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:57::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:57::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_9/src"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2022-10-16.20:24:57::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2022-10-16.20:24:57::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_2/src"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-10-16.20:24:57::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-10-16.20:24:57::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_9/src"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:57::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:57::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_4/src"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-10-16.20:24:57::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-10-16.20:24:57::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_7/src"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axivdma_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2022-10-16.20:24:57::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2022-10-16.20:24:57::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:57::SCWMssOS::"Compiling axivdma"
+
+TRACE::2022-10-16.20:24:58::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src"
+
+TRACE::2022-10-16.20:24:58::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2022-10-16.20:24:58::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2022-10-16.20:24:58::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:58::SCWMssOS::"Compiling coresightps_dcc"
+
+TRACE::2022-10-16.20:24:58::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src"
+
+TRACE::2022-10-16.20:24:58::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-10-16.20:24:58::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-10-16.20:24:58::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:58::SCWMssOS::"Compiling cpu_cortexa9"
+
+TRACE::2022-10-16.20:24:58::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_1/src"
+
+TRACE::2022-10-16.20:24:58::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2022-10-16.20:24:58::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2022-10-16.20:24:58::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:58::SCWMssOS::"Compiling ddrps"
+
+TRACE::2022-10-16.20:24:58::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_6/src"
+
+TRACE::2022-10-16.20:24:58::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:24:58::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:24:58::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:58::SCWMssOS::"Compiling devcfg"
+
+TRACE::2022-10-16.20:24:59::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_6/src"
+
+TRACE::2022-10-16.20:24:59::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2022-10-16.20:24:59::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2022-10-16.20:24:59::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:59::SCWMssOS::"Compiling dmaps"
+
+TRACE::2022-10-16.20:24:59::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_11/src"
+
+TRACE::2022-10-16.20:24:59::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2022-10-16.20:24:59::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2022-10-16.20:24:59::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:24:59::SCWMssOS::"Compiling emacps"
+
+TRACE::2022-10-16.20:25:00::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_7/src"
+
+TRACE::2022-10-16.20:25:00::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:25:00::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:25:00::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:25:00::SCWMssOS::"Compiling gpiops"
+
+TRACE::2022-10-16.20:25:01::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_7/src"
+
+TRACE::2022-10-16.20:25:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:25:01::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:25:01::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:25:01::SCWMssOS::"Compiling qspips"
+
+TRACE::2022-10-16.20:25:01::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_2/src"
+
+TRACE::2022-10-16.20:25:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:25:01::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:25:01::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:25:01::SCWMssOS::"Compiling scugic"
+
+TRACE::2022-10-16.20:25:02::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_2/src"
+
+TRACE::2022-10-16.20:25:02::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-10-16.20:25:02::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-10-16.20:25:02::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:25:02::SCWMssOS::"Compiling scutimer"
+
+TRACE::2022-10-16.20:25:02::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_2/src"
+
+TRACE::2022-10-16.20:25:02::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:25:02::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:25:02::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:25:02::SCWMssOS::"Compiling scuwdt"
+
+TRACE::2022-10-16.20:25:03::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_9/src"
+
+TRACE::2022-10-16.20:25:03::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2022-10-16.20:25:03::SCWMssOS::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2022-10-16.20:25:03::SCWMssOS::les -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:25:03::SCWMssOS::"Compiling sdps"
+
+TRACE::2022-10-16.20:25:04::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_2/src"
+
+TRACE::2022-10-16.20:25:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-10-16.20:25:04::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-10-16.20:25:04::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:25:04::SCWMssOS::"Compiling standalone"
+
+TRACE::2022-10-16.20:25:06::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_9/src"
+
+TRACE::2022-10-16.20:25:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:25:06::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:25:06::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:25:06::SCWMssOS::"Compiling uartps"
+
+TRACE::2022-10-16.20:25:07::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_4/src"
+
+TRACE::2022-10-16.20:25:07::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-10-16.20:25:07::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-10-16.20:25:07::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2022-10-16.20:25:07::SCWMssOS::"Compiling xadcps"
+
+TRACE::2022-10-16.20:25:08::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-10-16.20:25:08::SCWMssOS::Copying to export directory.
+TRACE::2022-10-16.20:25:08::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-10-16.20:25:08::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-10-16.20:25:08::SCWSystem::Completed Processing the domain domain_ps7_cortexa9_0
+LOG::2022-10-16.20:25:08::SCWSystem::Completed Processing the sysconfig system_wrapper
+LOG::2022-10-16.20:25:08::SCWPlatform::Completed generating the artifacts for system configuration system_wrapper
+TRACE::2022-10-16.20:25:08::SCWPlatform::Started preparing the platform 
+TRACE::2022-10-16.20:25:08::SCWSystem::Writing the bif file for system config system_wrapper
+TRACE::2022-10-16.20:25:08::SCWSystem::dir created 
+TRACE::2022-10-16.20:25:08::SCWSystem::Writing the bif 
+TRACE::2022-10-16.20:25:08::SCWPlatform::Started writing the spfm file 
+TRACE::2022-10-16.20:25:08::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-10-16.20:25:08::SCWPlatform::Completed generating the platform
+TRACE::2022-10-16.20:25:08::SCWMssOS::Saving the mss changes C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:25:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-16.20:25:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-16.20:25:08::SCWMssOS::Commit changes completed.
+TRACE::2022-10-16.20:25:08::SCWMssOS::Saving the mss changes C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:25:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-16.20:25:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-16.20:25:08::SCWMssOS::Commit changes completed.
+TRACE::2022-10-16.20:25:08::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:25:08::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:25:08::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:25:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:25:08::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:25:08::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:25:08::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:25:08::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:25:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:25:08::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:25:08::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:25:08::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:25:08::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:25:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:25:08::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-16.20:25:08::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:25:08::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:25:08::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:25:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:25:08::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:25:08::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:25:08::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:25:08::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:25:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:25:08::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:25:08::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:25:08::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:25:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:25:08::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:25:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:25:08::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:25:08::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"domain_ps7_cortexa9_0",
+			"sysDefaultDom":	"domain_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"59d07a3cce2e0ec28883a1dea47d00f1",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"domain_ps7_cortexa9_0",
+					"domainDispName":	"domain_ps7_cortexa9_0",
+					"domainDesc":	"domain_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/software/vivado/main/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"c19dbb2830428fd94a3d8636db01e7f9",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-10-16.20:25:08::SCWPlatform::updated the xpfm file.
+TRACE::2022-10-16.20:25:10::SCWPlatform::Trying to open the hw design at C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:10::SCWPlatform::DSA given C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:10::SCWPlatform::DSA absoulate path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:10::SCWPlatform::DSA directory C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw
+TRACE::2022-10-16.20:25:10::SCWPlatform:: Platform Path C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/hw/system_wrapper.xsa
+TRACE::2022-10-16.20:25:10::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-10-16.20:25:10::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2022-10-16.20:25:10::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2022-10-16.20:25:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-16.20:25:10::SCWMssOS::Checking the sw design at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-16.20:25:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-16.20:25:10::SCWMssOS::Sw design exists and opened at  C:/Users/zbl/Desktop/ov5640/vitis/test1/system_wrapper/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
