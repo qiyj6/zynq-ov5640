@@ -1,7 +1,7 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-//Date        : Sun Oct 16 20:10:44 2022
+//Date        : Sun Oct 16 22:43:52 2022
 //Host        : DESKTOP-9JPK14P running 64-bit major release  (build 9200)
 //Command     : generate_target system.bd
 //Design      : system
@@ -933,7 +933,7 @@ module s01_couplers_imp_VQ497S
   assign s01_couplers_to_s01_couplers_WVALID = S_AXI_wvalid;
 endmodule
 
-(* CORE_GENERATION_INFO = "system,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=system,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=25,numReposBlks=19,numNonXlnxBlks=0,numHierBlks=6,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=1,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=13,da_board_cnt=2,da_ps7_cnt=1,synth_mode=Global}" *) (* HW_HANDOFF = "system.hwdef" *) 
+(* CORE_GENERATION_INFO = "system,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=system,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=24,numReposBlks=18,numNonXlnxBlks=0,numHierBlks=6,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=1,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=13,da_board_cnt=2,da_ps7_cnt=1,synth_mode=Global}" *) (* HW_HANDOFF = "system.hwdef" *) 
 module system
    (DDR_addr,
     DDR_ba,
@@ -976,8 +976,7 @@ module system
     gpio_led_tri_i,
     gpio_led_tri_o,
     gpio_led_tri_t,
-    led_cam_init,
-    rst_n);
+    led_cam_init);
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR ADDR" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DDR, AXI_ARBITRATION_SCHEME TDM, BURST_LENGTH 8, CAN_DEBUG false, CAS_LATENCY 11, CAS_WRITE_LATENCY 11, CS_ENABLED true, DATA_MASK_ENABLED true, DATA_WIDTH 8, MEMORY_TYPE COMPONENTS, MEM_ADDR_MAP ROW_COLUMN_BANK, SLOT Single, TIMEPERIOD_PS 1250" *) inout [14:0]DDR_addr;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR BA" *) inout [2:0]DDR_ba;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR CAS_N" *) inout DDR_cas_n;
@@ -1020,7 +1019,6 @@ module system
   (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 gpio_led TRI_O" *) output [2:0]gpio_led_tri_o;
   (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 gpio_led TRI_T" *) output [2:0]gpio_led_tri_t;
   output led_cam_init;
-  input rst_n;
 
   wire HDMI_FPGA_ML_0_HDMI_CLK_N;
   wire HDMI_FPGA_ML_0_HDMI_CLK_P;
@@ -1201,7 +1199,6 @@ module system
   wire [31:0]processing_system7_0_axi_periph_M00_AXI_WDATA;
   wire processing_system7_0_axi_periph_M00_AXI_WREADY;
   wire processing_system7_0_axi_periph_M00_AXI_WVALID;
-  wire rst_n_1;
   wire [0:0]rst_processing_system7_0_50M_interconnect_aresetn;
   wire [0:0]rst_processing_system7_0_50M_peripheral_aresetn;
   (* DEBUG_IN_BD = "true" *) (* MARK_DEBUG *) wire [0:0]util_vector_logic_0_Res;
@@ -1243,7 +1240,6 @@ module system
   assign gpio_led_tri_t[2:0] = processing_system7_0_GPIO_0_TRI_T;
   assign led_cam_init = cam_config_top_0_cam_init_done;
   assign processing_system7_0_GPIO_0_TRI_I = gpio_led_tri_i[2:0];
-  assign rst_n_1 = rst_n;
   system_HDMI_FPGA_ML_0_0 HDMI_FPGA_ML_0
        (.HDMI_CLK_N(HDMI_FPGA_ML_0_HDMI_CLK_N),
         .HDMI_CLK_P(HDMI_FPGA_ML_0_HDMI_CLK_P),
@@ -1421,26 +1417,21 @@ module system
         .cam_sda(cam_sda),
         .cam_vsync(1'b0),
         .clk_50m(clk_wiz_2_clk_out1),
-        .rst_n(rst_n_1));
+        .rst_n(xlconstant_2_dout));
   system_clk_wiz_0_0 clk_wiz_0
        (.clk_in1(processing_system7_0_FCLK_CLK0),
         .clk_out1(clk_wiz_0_clk_out2),
         .clk_out2(clk_wiz_0_clk_out3),
         .locked(clk_wiz_0_locked),
         .resetn(rst_processing_system7_0_50M_peripheral_aresetn));
-  system_clk_wiz_1_0 clk_wiz_1
-       (.clk_in1(processing_system7_0_FCLK_CLK0),
-        .clk_out1(clk_wiz_1_clk_out1));
-  system_clk_wiz_1_1 clk_wiz_2
+  system_clk_wiz_1_1 clk_wiz_1
        (.clk_in1(clk_125m_1),
-        .clk_out1(clk_wiz_2_clk_out1));
+        .clk_out1(clk_wiz_2_clk_out1),
+        .clk_out2(clk_wiz_1_clk_out1));
   system_ila_0_0 ila_0
        (.clk(processing_system7_0_FCLK_CLK0),
         .probe0(cmos_data_i_1),
-        .probe1(clk_wiz_1_clk_out1),
-        .probe2(cmos_href_i_1),
-        .probe3(rst_n_1),
-        .probe4(xlconstant_2_dout));
+        .probe1(clk_wiz_1_clk_out1));
   system_processing_system7_0_0 processing_system7_0
        (.DDR_Addr(DDR_addr[14:0]),
         .DDR_BankAddr(DDR_ba[2:0]),

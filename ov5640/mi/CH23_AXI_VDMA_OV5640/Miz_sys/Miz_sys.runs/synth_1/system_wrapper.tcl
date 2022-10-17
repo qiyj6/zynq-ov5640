@@ -70,6 +70,10 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param tcl.collectionResultDisplayLimit 0
+set_param chipscope.maxJobs 3
+set_param xicom.use_bs_reader 1
+set_msg_config -id {HDL-1065} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg400-1
 
@@ -112,10 +116,6 @@ set_property used_in_implementation false [get_files -all c:/Users/zbl/Desktop/o
 set_property used_in_implementation false [get_files -all c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_v_axi4s_vid_out_0_0/system_v_axi4s_vid_out_0_0_clocks.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_v_axi4s_vid_out_0_0/system_v_axi4s_vid_out_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_xbar_0/system_xbar_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0_late.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_1_1/system_clk_wiz_1_1_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_1_1/system_clk_wiz_1_1.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_1_1/system_clk_wiz_1_1_ooc.xdc]

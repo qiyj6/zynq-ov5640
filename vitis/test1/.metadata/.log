@@ -13169,3 +13169,9 @@ Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-2: Launch
 
 !ENTRY com.xilinx.sdk.utils 0 0 2022-10-16 20:56:56.888
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-2: Launching Debugger_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-16 21:42:56.945
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-101
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-16 21:42:56.949
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-101

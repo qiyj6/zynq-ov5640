@@ -1,6 +1,6 @@
 +--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
 |       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
 +--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
-| clk_out1_system_clk_wiz_1_0 |               clk_fpga_0 |                                        system_i/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][8]_srl8/D|
-| clk_out1_system_clk_wiz_1_0 |               clk_fpga_0 |system_i/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[0]/D|
+| clk_out2_system_clk_wiz_1_1 |               clk_fpga_0 |                                        system_i/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][8]_srl8/D|
+| clk_out2_system_clk_wiz_1_1 |               clk_fpga_0 |system_i/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[0]/D|
 +--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

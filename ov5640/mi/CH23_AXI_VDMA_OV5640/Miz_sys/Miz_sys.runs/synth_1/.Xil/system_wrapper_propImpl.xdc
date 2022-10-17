@@ -1,7 +1,7 @@
 set_property SRC_FILE_INFO {cfile:c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc rfile:../../../Miz_sys.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:system_i/processing_system7_0/inst} [current_design]
 set_property SRC_FILE_INFO {cfile:c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_0_0/system_clk_wiz_0_0.xdc rfile:../../../Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_0_0/system_clk_wiz_0_0.xdc id:2 order:EARLY scoped_inst:system_i/clk_wiz_0/inst} [current_design]
 set_property SRC_FILE_INFO {cfile:c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_axi_vdma_0_1/system_axi_vdma_0_1.xdc rfile:../../../Miz_sys.srcs/sources_1/bd/system/ip/system_axi_vdma_0_1/system_axi_vdma_0_1.xdc id:3 order:EARLY scoped_inst:system_i/axi_vdma_0/U0} [current_design]
-set_property SRC_FILE_INFO {cfile:c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_1_1/system_clk_wiz_1_1.xdc rfile:../../../Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_1_1/system_clk_wiz_1_1.xdc id:4 order:EARLY scoped_inst:system_i/clk_wiz_2/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:c:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_1_1/system_clk_wiz_1_1.xdc rfile:../../../Miz_sys.srcs/sources_1/bd/system/ip/system_clk_wiz_1_1/system_clk_wiz_1_1.xdc id:4 order:EARLY scoped_inst:system_i/clk_wiz_1/inst} [current_design]
 set_property SRC_FILE_INFO {cfile:C:/Users/zbl/Desktop/ov5640/ov5640/mi/CH23_AXI_VDMA_OV5640/Miz_sys/Miz_sys.srcs/constrs_1/new/Miz_sys_pin.xdc rfile:../../../Miz_sys.srcs/constrs_1/new/Miz_sys_pin.xdc id:5} [current_design]
 set_property SRC_FILE_INFO {cfile:D:/software/vivado/main/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl rfile:D:/software/vivado/main/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl id:6 order:LATE scoped_inst:system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst unmanaged:yes} [current_design]
 set_property SRC_FILE_INFO {cfile:D:/software/vivado/main/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl rfile:D:/software/vivado/main/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl id:7 order:LATE scoped_inst:system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst unmanaged:yes} [current_design]
@@ -317,7 +317,7 @@ create_waiver -internal -scope -type CDC -id {CDC-6} -user "axi_vdma" -tags "960
 set_property src_info {type:SCOPED_XDC file:3 line:220 export:INPUT save:INPUT read:READ} [current_design]
 create_waiver -internal -scope -type CDC -id {CDC-6} -user "axi_vdma" -tags "9601" -desc "The CDC-6 warning is waived as it is safe in the context of AXI VDMA." -to [get_pins -hier -quiet -filter {NAME =~*GEN_SPRT_FOR_S2MM.S2MM_VID_CDC_I/GEN_CDC_FOR_ASYNC.GEN_FOR_INTERNAL_GENLOCK.othrchnl_frame_ptr_in_d1_cdc_tig_reg[*]/D}]
 current_instance
-current_instance system_i/clk_wiz_2/inst
+current_instance system_i/clk_wiz_1/inst
 set_property src_info {type:SCOPED_XDC file:4 line:57 export:INPUT save:INPUT read:READ} [current_design]
 set_input_jitter [get_clocks -of_objects [get_ports clk_in1]] 0.08
 current_instance
@@ -353,6 +353,8 @@ set_property src_info {type:XDC file:5 line:39 export:INPUT save:INPUT read:READ
 set_property PACKAGE_PIN W13 [get_ports cam_sda]
 set_property src_info {type:XDC file:5 line:43 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN  L19 [get_ports rst_n]
+set_property src_info {type:XDC file:5 line:44 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports rst_n]
 set_property src_info {type:XDC file:5 line:46 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN  Y18 [get_ports cam_rst_n]
 set_property src_info {type:XDC file:5 line:49 export:INPUT save:INPUT read:READ} [current_design]

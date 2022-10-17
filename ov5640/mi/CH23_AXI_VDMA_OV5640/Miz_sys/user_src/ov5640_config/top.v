@@ -19,8 +19,8 @@ parameter  SLAVE_ADDR = 7'b0111100         ;  //OV5640的器件地??7'h3c
 parameter  BIT_CTRL   = 1'b1          ;  //OV5640的字节地????16??  0:8?? 1:16??
 parameter  CLK_FREQ   = 26'd50_000_000;  //i2c_dri模块的驱动时钟频率：50Mhz
 parameter  I2C_FREQ   = 18'd250_000   ;  //I2C的SCL时钟频率,不超??400KHz
-parameter  CMOS_H_PIXEL = 24'd1024    ;  //CMOS水平方向像素个数,用于设置SDRAM缓存大小
-parameter  CMOS_V_PIXEL = 24'd768     ;  //CMOS垂直方向像素个数,用于设置SDRAM缓存大小
+parameter  CMOS_H_PIXEL = 24'd1280    ;  //CMOS水平方向像素个数,用于设置SDRAM缓存大小
+parameter  CMOS_V_PIXEL = 24'd720     ;  //CMOS垂直方向像素个数,用于设置SDRAM缓存大小
 
 wire        i2c_dri_clk;
 wire        i2c_exec;

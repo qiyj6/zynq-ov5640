@@ -91,8 +91,8 @@ inout wire cam_sda;
     .BIT_CTRL(1'B1),
     .CLK_FREQ(26'B10111110101111000010000000),
     .I2C_FREQ(18'B111101000010010000),
-    .CMOS_H_PIXEL(24'H000400),
-    .CMOS_V_PIXEL(24'H000300)
+    .CMOS_H_PIXEL(24'H000500),
+    .CMOS_V_PIXEL(24'H0002D0)
   ) inst (
     .clk_50m(clk_50m),
     .rst_n(rst_n),

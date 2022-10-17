@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date                      : Sun Oct 16 20:17:21 2022
+| Date                      : Sun Oct 16 22:49:43 2022
 | Host                      : DESKTOP-9JPK14P running 64-bit major release  (build 9200)
 | Command                   : report_io -file system_wrapper_io_placed.rpt
 | Design                    : system_wrapper
@@ -25,7 +25,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|           159 |
+|           158 |
 +---------------+
 
 
@@ -253,7 +253,7 @@ Table of Contents
 | L16        | HDMI_CLK_P         | High Range | IO_L11P_T1_SRCC_35      | OUTPUT      | TMDS_33           |      35 |            |      |                     |            FP_3.3_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | L17        | HDMI_CLK_N         | High Range | IO_L11N_T1_SRCC_35      | OUTPUT      | TMDS_33           |      35 |            |      |                     |            FP_3.3_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | L18        |                    |            | GND                     | GND         |                   |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
-| L19        | rst_n              | High Range | IO_L9P_T1_DQS_AD3P_35   | INPUT       | LVCMOS33          |      35 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
+| L19        |                    | High Range | IO_L9P_T1_DQS_AD3P_35   | User IO     |                   |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | L20        |                    | High Range | IO_L9N_T1_DQS_AD3N_35   | User IO     |                   |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | M1         |                    |            | GND                     | GND         |                   |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | M2         | DDR_ck_n           |            | PS_DDR_CKN_502          | IN          | DIFF_SSTL15       |         |            | FAST |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |

@@ -51,9 +51,6 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_xbar_0 |
 # IP: bd/system/ip/system_cam_config_top_0_0/system_cam_config_top_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_cam_config_top_0_0 || ORIG_REF_NAME==system_cam_config_top_0_0} -quiet] -quiet
 
-# IP: bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_clk_wiz_1_0 || ORIG_REF_NAME==system_clk_wiz_1_0} -quiet] -quiet
-
 # IP: bd/system/ip/system_clk_wiz_1_1/system_clk_wiz_1_1.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_clk_wiz_1_1 || ORIG_REF_NAME==system_clk_wiz_1_1} -quiet] -quiet
 
@@ -112,17 +109,6 @@ set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {R
 # XDC: bd/system/ip/system_v_axi4s_vid_out_0_0/system_v_axi4s_vid_out_0_0_ooc.xdc
 
 # XDC: bd/system/ip/system_xbar_0/system_xbar_0_ooc.xdc
-
-# XDC: bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0_board.xdc
-set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_clk_wiz_1_0 || ORIG_REF_NAME==system_clk_wiz_1_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
-
-# XDC: bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0.xdc
-#dup# set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_clk_wiz_1_0 || ORIG_REF_NAME==system_clk_wiz_1_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
-
-# XDC: bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0_late.xdc
-#dup# set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_clk_wiz_1_0 || ORIG_REF_NAME==system_clk_wiz_1_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
-
-# XDC: bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0_ooc.xdc
 
 # XDC: bd/system/ip/system_clk_wiz_1_1/system_clk_wiz_1_1_board.xdc
 set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_clk_wiz_1_1 || ORIG_REF_NAME==system_clk_wiz_1_1} -quiet] {/inst } ]/inst ] -quiet] -quiet
