@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date             : Sun Oct 16 22:50:38 2022
+| Date             : Mon Oct 17 13:26:24 2022
 | Host             : DESKTOP-9JPK14P running 64-bit major release  (build 9200)
 | Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb -rpx system_wrapper_power_routed.rpx
 | Design           : system_wrapper
@@ -61,11 +61,11 @@ Table of Contents
 |   BUFG                   |    <0.001 |        2 |        32 |            6.25 |
 |   LUT as Distributed RAM |    <0.001 |       42 |     17400 |            0.24 |
 |   F7/F8 Muxes            |    <0.001 |       46 |     53200 |            0.09 |
-|   Others                 |     0.000 |      848 |       --- |             --- |
-| Signals                  |     0.008 |    11599 |       --- |             --- |
+|   Others                 |     0.000 |      847 |       --- |             --- |
+| Signals                  |     0.008 |    11588 |       --- |             --- |
 | Block RAM                |     0.004 |      7.5 |       140 |            5.36 |
 | MMCM                     |     0.189 |        2 |         4 |           50.00 |
-| I/O                      |     0.143 |       28 |       125 |           22.40 |
+| I/O                      |     0.143 |       29 |       125 |           23.20 |
 | PS7                      |     1.266 |        1 |       --- |             --- |
 | Static Power             |     0.147 |          |           |                 |
 | Total                    |     1.797 |          |           |                 |

@@ -353,8 +353,6 @@ set_property src_info {type:XDC file:5 line:39 export:INPUT save:INPUT read:READ
 set_property PACKAGE_PIN W13 [get_ports cam_sda]
 set_property src_info {type:XDC file:5 line:43 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN  L19 [get_ports rst_n]
-set_property src_info {type:XDC file:5 line:44 export:INPUT save:INPUT read:READ} [current_design]
-set_property IOSTANDARD LVCMOS33 [get_ports rst_n]
 set_property src_info {type:XDC file:5 line:46 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN  Y18 [get_ports cam_rst_n]
 set_property src_info {type:XDC file:5 line:49 export:INPUT save:INPUT read:READ} [current_design]

@@ -1,7 +1,7 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-//Date        : Sun Oct 16 22:43:53 2022
+//Date        : Mon Oct 17 13:19:45 2022
 //Host        : DESKTOP-9JPK14P running 64-bit major release  (build 9200)
 //Command     : generate_target system_wrapper.bd
 //Design      : system_wrapper
@@ -49,7 +49,8 @@ module system_wrapper
     cmos_vsync_i,
     cmos_xclk_o,
     gpio_led_tri_io,
-    led_cam_init);
+    led_cam_init,
+    rst_n);
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
   inout DDR_cas_n;
@@ -90,6 +91,7 @@ module system_wrapper
   output cmos_xclk_o;
   inout [2:0]gpio_led_tri_io;
   output led_cam_init;
+  input rst_n;
 
   wire [14:0]DDR_addr;
   wire [2:0]DDR_ba;
@@ -142,6 +144,7 @@ module system_wrapper
   wire [1:1]gpio_led_tri_t_1;
   wire [2:2]gpio_led_tri_t_2;
   wire led_cam_init;
+  wire rst_n;
 
   IOBUF gpio_led_tri_iobuf_0
        (.I(gpio_led_tri_o_0),
@@ -200,5 +203,6 @@ module system_wrapper
         .gpio_led_tri_i({gpio_led_tri_i_2,gpio_led_tri_i_1,gpio_led_tri_i_0}),
         .gpio_led_tri_o({gpio_led_tri_o_2,gpio_led_tri_o_1,gpio_led_tri_o_0}),
         .gpio_led_tri_t({gpio_led_tri_t_2,gpio_led_tri_t_1,gpio_led_tri_t_0}),
-        .led_cam_init(led_cam_init));
+        .led_cam_init(led_cam_init),
+        .rst_n(rst_n));
 endmodule

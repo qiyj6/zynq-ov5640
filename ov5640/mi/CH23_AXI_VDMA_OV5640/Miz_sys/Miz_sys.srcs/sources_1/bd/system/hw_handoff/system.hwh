@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Oct 16 22:43:54 2022" VIVADOVERSION="2020.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Oct 17 13:19:46 2022" VIVADOVERSION="2020.1">
 
   <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="system" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -89,6 +89,11 @@
     <PORT DIR="O" LEFT="0" NAME="cam_rst_n" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_2_dout">
       <CONNECTIONS>
         <CONNECTION INSTANCE="xlconstant_2" PORT="dout"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="clk_125m" SIGIS="undef" SIGNAME="External_Ports_clk_125m">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_in1"/>
       </CONNECTIONS>
     </PORT>
     <PORT DIR="IO" NAME="DDR_cas_n" SIGIS="undef" SIGNAME="processing_system7_0_DDR_CAS_n">
@@ -211,9 +216,9 @@
         <CONNECTION INSTANCE="processing_system7_0" PORT="GPIO_T"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" NAME="clk_125m" SIGIS="undef" SIGNAME="External_Ports_clk_125m">
+    <PORT DIR="I" NAME="rst_n" SIGIS="undef" SIGNAME="External_Ports_rst_n">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_in1"/>
+        <CONNECTION INSTANCE="cam_config_top_0" PORT="rst_n"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -3467,8 +3472,8 @@
         <PARAMETER NAME="BIT_CTRL" VALUE="&quot;1&quot;"/>
         <PARAMETER NAME="CLK_FREQ" VALUE="&quot;10111110101111000010000000&quot;"/>
         <PARAMETER NAME="I2C_FREQ" VALUE="&quot;111101000010010000&quot;"/>
-        <PARAMETER NAME="CMOS_H_PIXEL" VALUE="0x000500"/>
-        <PARAMETER NAME="CMOS_V_PIXEL" VALUE="0x0002D0"/>
+        <PARAMETER NAME="CMOS_H_PIXEL" VALUE="0x000400"/>
+        <PARAMETER NAME="CMOS_V_PIXEL" VALUE="0x000300"/>
         <PARAMETER NAME="Component_Name" VALUE="system_cam_config_top_0_0"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
@@ -3478,9 +3483,9 @@
             <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_out1"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="rst_n" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="xlconstant_2_dout">
+        <PORT DIR="I" NAME="rst_n" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst_n">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconstant_2" PORT="dout"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst_n"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="cam_init_done" SIGIS="undef" SIGNAME="cam_config_top_0_cam_init_done">
@@ -4715,13 +4720,13 @@
             <CONNECTION INSTANCE="cam_config_top_0" PORT="clk_50m"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="locked" SIGIS="undef"/>
         <PORT CLKFREQUENCY="24000000" DIR="O" NAME="clk_out2" SIGIS="clk" SIGNAME="clk_wiz_1_clk_out2">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="cmos_xclk_o"/>
             <CONNECTION INSTANCE="ila_0" PORT="probe1"/>
           </CONNECTIONS>
         </PORT>
+        <PORT DIR="O" NAME="locked" SIGIS="undef"/>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
@@ -10992,7 +10997,6 @@
         <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_2_dout">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="cam_rst_n"/>
-            <CONNECTION INSTANCE="cam_config_top_0" PORT="rst_n"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>

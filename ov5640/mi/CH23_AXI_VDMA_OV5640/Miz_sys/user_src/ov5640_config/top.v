@@ -4,23 +4,23 @@ module cam_config_top(
     input rst_n,
     output cam_init_done,
 
-    input                 cam_pclk    ,  //cmos Êý¾ÝÏñËØÊ±ÖÓ
-    input                 cam_vsync   ,  //cmos ³¡Í¬²½ÐÅ??
-    input                 cam_href    ,  //cmos ÐÐÍ¬²½ÐÅ??
-    input        [7:0]    cam_data    ,  //cmos Êý¾Ý  
-    output                cam_rst_n   ,  //cmos ¸´Î»ÐÅºÅ£¬µÍµçÆ½ÓÐÐ§
-    output                cam_pwdn    ,  //cmos µçÔ´ÐÝÃßÄ£Ê½Ñ¡ÔñÐÅºÅ
+    input                 cam_pclk    ,  //cmos ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
+    input                 cam_vsync   ,  //cmos ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½??
+    input                 cam_href    ,  //cmos ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½??
+    input        [7:0]    cam_data    ,  //cmos ï¿½ï¿½ï¿½ï¿½  
+    output                cam_rst_n   ,  //cmos ï¿½ï¿½Î»ï¿½ÅºÅ£ï¿½ï¿½Íµï¿½Æ½ï¿½ï¿½Ð§
+    output                cam_pwdn    ,  //cmos ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½Ä£Ê½Ñ¡ï¿½ï¿½ï¿½Åºï¿½
     output                cam_scl     ,  //cmos SCCB_SCL??
     output                cam_xclk    ,
     inout                 cam_sda        //cmos SCCB_SDA??
 );
 
-parameter  SLAVE_ADDR = 7'b0111100         ;  //OV5640µÄÆ÷¼þµØ??7'h3c
-parameter  BIT_CTRL   = 1'b1          ;  //OV5640µÄ×Ö½ÚµØ????16??  0:8?? 1:16??
-parameter  CLK_FREQ   = 26'd50_000_000;  //i2c_driÄ£¿éµÄÇý¶¯Ê±ÖÓÆµÂÊ£º50Mhz
-parameter  I2C_FREQ   = 18'd250_000   ;  //I2CµÄSCLÊ±ÖÓÆµÂÊ,²»³¬??400KHz
-parameter  CMOS_H_PIXEL = 24'd1280    ;  //CMOSË®Æ½·½ÏòÏñËØ¸öÊý,ÓÃÓÚÉèÖÃSDRAM»º´æ´óÐ¡
-parameter  CMOS_V_PIXEL = 24'd720     ;  //CMOS´¹Ö±·½ÏòÏñËØ¸öÊý,ÓÃÓÚÉèÖÃSDRAM»º´æ´óÐ¡
+parameter  SLAVE_ADDR = 7'b0111100         ;  //OV5640ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½??7'h3c
+parameter  BIT_CTRL   = 1'b1          ;  //OV5640ï¿½ï¿½ï¿½Ö½Úµï¿½????16??  0:8?? 1:16??
+parameter  CLK_FREQ   = 26'd50_000_000;  //i2c_driÄ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Æµï¿½Ê£ï¿½50Mhz
+parameter  I2C_FREQ   = 18'd250_000   ;  //I2Cï¿½ï¿½SCLÊ±ï¿½ï¿½Æµï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½??400KHz
+parameter  CMOS_H_PIXEL = 24'd1024    ;  //CMOSË®Æ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½SDRAMï¿½ï¿½ï¿½ï¿½ï¿½Ð¡
+parameter  CMOS_V_PIXEL = 24'd768     ;  //CMOSï¿½ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½SDRAMï¿½ï¿½ï¿½ï¿½ï¿½Ð¡
 
 wire        i2c_dri_clk;
 wire        i2c_exec;
@@ -29,7 +29,7 @@ wire        i2c_done;
 
 i2c_dri 
    #(
-    .SLAVE_ADDR         (SLAVE_ADDR),       //²ÎÊý´«???
+    .SLAVE_ADDR         (SLAVE_ADDR),       //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½???
     .CLK_FREQ           (CLK_FREQ  ),              
     .I2C_FREQ           (I2C_FREQ  )                
     )   u_i2c_dri(   
@@ -38,7 +38,7 @@ i2c_dri
         
     .i2c_exec           (i2c_exec  ),   
     .bit_ctrl           (BIT_CTRL  ),   
-    .i2c_rh_wl          (1'b0),             //¹Ì¶¨??0£¬Ö»ÓÃµ½ÁËIICÇý¶¯µÄÐ´²Ù×÷   
+    .i2c_rh_wl          (1'b0),             //ï¿½Ì¶ï¿½??0ï¿½ï¿½Ö»ï¿½Ãµï¿½ï¿½ï¿½IICï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½   
     .i2c_addr           (i2c_data[23:8]),   
     .i2c_data_w         (i2c_data[7:0]),   
     .i2c_data_r         (),   
@@ -46,7 +46,7 @@ i2c_dri
     .scl                (cam_scl   ),   
     .sda                (cam_sda   ),   
         
-    .dri_clk            (i2c_dri_clk)       //I2C²Ù×÷Ê±ÖÓ
+    .dri_clk            (i2c_dri_clk)       //I2Cï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
 );   
 
 i2c_ov5640_rgb565_cfg 

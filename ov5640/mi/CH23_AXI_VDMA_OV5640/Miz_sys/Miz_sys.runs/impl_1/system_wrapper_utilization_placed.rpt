@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Sun Oct 16 22:49:43 2022
+| Date         : Mon Oct 17 13:25:30 2022
 | Host         : DESKTOP-9JPK14P running 64-bit major release  (build 9200)
 | Command      : report_utilization -file system_wrapper_utilization_placed.rpt -pb system_wrapper_utilization_placed.pb
 | Design       : system_wrapper
@@ -69,13 +69,13 @@ Table of Contents
 +--------------------------------------------+------+-------+-----------+-------+
 |                  Site Type                 | Used | Fixed | Available | Util% |
 +--------------------------------------------+------+-------+-----------+-------+
-| Slice                                      | 2542 |     0 |     13300 | 19.11 |
-|   SLICEL                                   | 1639 |     0 |           |       |
-|   SLICEM                                   |  903 |     0 |           |       |
+| Slice                                      | 2570 |     0 |     13300 | 19.32 |
+|   SLICEL                                   | 1681 |     0 |           |       |
+|   SLICEM                                   |  889 |     0 |           |       |
 | LUT as Logic                               | 4980 |     0 |     53200 |  9.36 |
 |   using O5 output only                     |    0 |       |           |       |
-|   using O6 output only                     | 3832 |       |           |       |
-|   using O5 and O6                          | 1148 |       |           |       |
+|   using O6 output only                     | 3831 |       |           |       |
+|   using O5 and O6                          | 1149 |       |           |       |
 | LUT as Memory                              |  338 |     0 |     17400 |  1.94 |
 |   LUT as Distributed RAM                   |   42 |     0 |           |       |
 |     using O5 output only                   |    0 |       |           |       |
@@ -86,10 +86,10 @@ Table of Contents
 |     using O6 output only                   |  116 |       |           |       |
 |     using O5 and O6                        |  174 |       |           |       |
 | Slice Registers                            | 8048 |     0 |    106400 |  7.56 |
-|   Register driven from within the Slice    | 3859 |       |           |       |
-|   Register driven from outside the Slice   | 4189 |       |           |       |
-|     LUT in front of the register is unused | 3335 |       |           |       |
-|     LUT in front of the register is used   |  854 |       |           |       |
+|   Register driven from within the Slice    | 3848 |       |           |       |
+|   Register driven from outside the Slice   | 4200 |       |           |       |
+|     LUT in front of the register is unused | 3328 |       |           |       |
+|     LUT in front of the register is used   |  872 |       |           |       |
 | Unique Control Sets                        |  396 |       |     13300 |  2.98 |
 +--------------------------------------------+------+-------+-----------+-------+
 * * Note: Available Control Sets calculated as Slice * 1, Review the Control Sets Report for more information regarding control sets.
@@ -126,8 +126,8 @@ Table of Contents
 +-----------------------------+------+-------+-----------+--------+
 |          Site Type          | Used | Fixed | Available |  Util% |
 +-----------------------------+------+-------+-----------+--------+
-| Bonded IOB                  |   28 |    28 |       125 |  22.40 |
-|   IOB Master Pads           |   14 |       |           |        |
+| Bonded IOB                  |   29 |    29 |       125 |  23.20 |
+|   IOB Master Pads           |   15 |       |           |        |
 |   IOB Slave Pads            |   14 |       |           |        |
 | Bonded IPADs                |    0 |     0 |         2 |   0.00 |
 | Bonded IOPADs               |  130 |   130 |       130 | 100.00 |
@@ -194,7 +194,7 @@ Table of Contents
 | SRL16E     |  361 |   Distributed Memory |
 | FDCE       |  341 |         Flop & Latch |
 | FDSE       |  237 |         Flop & Latch |
-| LUT1       |  204 |                  LUT |
+| LUT1       |  205 |                  LUT |
 | CARRY4     |  203 |           CarryLogic |
 | BIBUF      |  130 |                   IO |
 | SRLC32E    |  107 |   Distributed Memory |
@@ -202,7 +202,7 @@ Table of Contents
 | RAMD32     |   62 |   Distributed Memory |
 | MUXF7      |   34 |                MuxFx |
 | RAMS32     |   20 |   Distributed Memory |
-| IBUF       |   15 |                   IO |
+| IBUF       |   16 |                   IO |
 | MUXF8      |   12 |                MuxFx |
 | BUFG       |   11 |                Clock |
 | OSERDESE2  |    8 |                   IO |
