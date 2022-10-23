@@ -36,6 +36,7 @@
       "clk_wiz_1": "",
       "ila_0": "",
       "xlconstant_2": "",
+      "rgb2gray_0": "",
       "cam_config_top_0": ""
     },
     "interface_ports": {
@@ -427,16 +428,16 @@
               }
             },
             "interface_nets": {
-              "auto_pc_to_m00_couplers": {
-                "interface_ports": [
-                  "M_AXI",
-                  "auto_pc/M_AXI"
-                ]
-              },
               "m00_couplers_to_auto_pc": {
                 "interface_ports": [
                   "S_AXI",
                   "auto_pc/S_AXI"
+                ]
+              },
+              "auto_pc_to_m00_couplers": {
+                "interface_ports": [
+                  "M_AXI",
+                  "auto_pc/M_AXI"
                 ]
               }
             },
@@ -457,28 +458,22 @@
           }
         },
         "interface_nets": {
-          "s01_couplers_to_xbar": {
-            "interface_ports": [
-              "s01_couplers/M_AXI",
-              "xbar/S01_AXI"
-            ]
-          },
           "m00_couplers_to_axi_mem_intercon": {
             "interface_ports": [
               "M00_AXI",
               "m00_couplers/M_AXI"
             ]
           },
-          "s00_couplers_to_xbar": {
+          "s01_couplers_to_xbar": {
             "interface_ports": [
-              "s00_couplers/M_AXI",
-              "xbar/S00_AXI"
+              "s01_couplers/M_AXI",
+              "xbar/S01_AXI"
             ]
           },
-          "axi_mem_intercon_to_s01_couplers": {
+          "xbar_to_m00_couplers": {
             "interface_ports": [
-              "S01_AXI",
-              "s01_couplers/S_AXI"
+              "xbar/M00_AXI",
+              "m00_couplers/S_AXI"
             ]
           },
           "axi_mem_intercon_to_s00_couplers": {
@@ -487,10 +482,16 @@
               "s00_couplers/S_AXI"
             ]
           },
-          "xbar_to_m00_couplers": {
+          "axi_mem_intercon_to_s01_couplers": {
             "interface_ports": [
-              "xbar/M00_AXI",
-              "m00_couplers/S_AXI"
+              "S01_AXI",
+              "s01_couplers/S_AXI"
+            ]
+          },
+          "s00_couplers_to_xbar": {
+            "interface_ports": [
+              "s00_couplers/M_AXI",
+              "xbar/S00_AXI"
             ]
           }
         },
@@ -2333,16 +2334,16 @@
           }
         },
         "interface_nets": {
-          "s00_couplers_to_processing_system7_0_axi_periph": {
-            "interface_ports": [
-              "M00_AXI",
-              "s00_couplers/M_AXI"
-            ]
-          },
           "processing_system7_0_axi_periph_to_s00_couplers": {
             "interface_ports": [
               "S00_AXI",
               "s00_couplers/S_AXI"
+            ]
+          },
+          "s00_couplers_to_processing_system7_0_axi_periph": {
+            "interface_ports": [
+              "M00_AXI",
+              "s00_couplers/M_AXI"
             ]
           }
         },
@@ -2519,6 +2520,54 @@
         "vlnv": "xilinx.com:ip:xlconstant:1.1",
         "xci_name": "system_xlconstant_0_1"
       },
+      "rgb2gray_0": {
+        "vlnv": "xilinx.com:module_ref:rgb2gray:1.0",
+        "xci_name": "system_rgb2gray_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "rgb2gray",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "cmos_pclk_i": {
+            "direction": "I"
+          },
+          "rgb_i": {
+            "direction": "I",
+            "left": "23",
+            "right": "0"
+          },
+          "clk_ce_i": {
+            "direction": "I"
+          },
+          "de_i": {
+            "direction": "I"
+          },
+          "vs_i": {
+            "direction": "I"
+          },
+          "hs_i": {
+            "direction": "I"
+          },
+          "gray_o": {
+            "direction": "O",
+            "left": "23",
+            "right": "0"
+          },
+          "clk_ce_o": {
+            "direction": "O"
+          },
+          "de_o": {
+            "direction": "O"
+          },
+          "vs_o": {
+            "direction": "O"
+          },
+          "hs_o": {
+            "direction": "O"
+          }
+        }
+      },
       "cam_config_top_0": {
         "vlnv": "xilinx.com:module_ref:cam_config_top:1.0",
         "xci_name": "system_cam_config_top_0_0",
@@ -2578,12 +2627,6 @@
           "axi_vdma_0/M_AXIS_MM2S"
         ]
       },
-      "processing_system7_0_FIXED_IO": {
-        "interface_ports": [
-          "FIXED_IO",
-          "processing_system7_0/FIXED_IO"
-        ]
-      },
       "axi_vdma_0_M_AXI_S2MM": {
         "interface_ports": [
           "axi_vdma_0/M_AXI_S2MM",
@@ -2596,6 +2639,18 @@
           "v_axi4s_vid_out_0/vtiming_in"
         ]
       },
+      "processing_system7_0_axi_periph_M00_AXI": {
+        "interface_ports": [
+          "processing_system7_0_axi_periph/M00_AXI",
+          "axi_vdma_0/S_AXI_LITE"
+        ]
+      },
+      "processing_system7_0_FIXED_IO": {
+        "interface_ports": [
+          "FIXED_IO",
+          "processing_system7_0/FIXED_IO"
+        ]
+      },
       "axi_mem_intercon_M00_AXI": {
         "interface_ports": [
           "axi_mem_intercon/M00_AXI",
@@ -2606,12 +2661,6 @@
         "interface_ports": [
           "axi_vdma_0/M_AXI_MM2S",
           "axi_mem_intercon/S00_AXI"
-        ]
-      },
-      "processing_system7_0_axi_periph_M00_AXI": {
-        "interface_ports": [
-          "processing_system7_0_axi_periph/M00_AXI",
-          "axi_vdma_0/S_AXI_LITE"
         ]
       },
       "processing_system7_0_GPIO_0": {
@@ -2802,7 +2851,8 @@
         "ports": [
           "cmos_pclk_i",
           "MSXBO_OVSensorRGB565_0/cmos_pclk_i",
-          "v_vid_in_axi4s_0/vid_io_in_clk"
+          "v_vid_in_axi4s_0/vid_io_in_clk",
+          "rgb2gray_0/cmos_pclk_i"
         ]
       },
       "util_vector_logic_0_Res": {
@@ -2830,26 +2880,19 @@
       "MSXBO_OVSensorRGB565_0_rgb_o": {
         "ports": [
           "MSXBO_OVSensorRGB565_0/rgb_o",
-          "v_vid_in_axi4s_0/vid_data"
+          "rgb2gray_0/rgb_i"
         ]
       },
       "MSXBO_OVSensorRGB565_0_vs_o": {
         "ports": [
           "MSXBO_OVSensorRGB565_0/vs_o",
-          "v_vid_in_axi4s_0/vid_vsync"
-        ]
-      },
-      "MSXBO_OVSensorRGB565_0_hs_o": {
-        "ports": [
-          "MSXBO_OVSensorRGB565_0/hs_o",
-          "v_vid_in_axi4s_0/vid_active_video",
-          "v_vid_in_axi4s_0/vid_hsync"
+          "rgb2gray_0/vs_i"
         ]
       },
       "MSXBO_OVSensorRGB565_0_clk_ce": {
         "ports": [
           "MSXBO_OVSensorRGB565_0/clk_ce",
-          "v_vid_in_axi4s_0/vid_io_in_ce"
+          "rgb2gray_0/clk_ce_i"
         ]
       },
       "v_axi4s_vid_out_0_vid_active_video": {
@@ -2929,6 +2972,37 @@
         "ports": [
           "rst_n",
           "cam_config_top_0/rst_n"
+        ]
+      },
+      "rgb2gray_0_gray_o": {
+        "ports": [
+          "rgb2gray_0/gray_o",
+          "v_vid_in_axi4s_0/vid_data"
+        ]
+      },
+      "rgb2gray_0_clk_ce_o": {
+        "ports": [
+          "rgb2gray_0/clk_ce_o",
+          "v_vid_in_axi4s_0/vid_io_in_ce"
+        ]
+      },
+      "rgb2gray_0_vs_o": {
+        "ports": [
+          "rgb2gray_0/vs_o",
+          "v_vid_in_axi4s_0/vid_vsync"
+        ]
+      },
+      "rgb2gray_0_hs_o": {
+        "ports": [
+          "rgb2gray_0/hs_o",
+          "v_vid_in_axi4s_0/vid_active_video",
+          "v_vid_in_axi4s_0/vid_hsync"
+        ]
+      },
+      "MSXBO_OVSensorRGB565_0_hs_o": {
+        "ports": [
+          "MSXBO_OVSensorRGB565_0/hs_o",
+          "rgb2gray_0/hs_i"
         ]
       }
     },

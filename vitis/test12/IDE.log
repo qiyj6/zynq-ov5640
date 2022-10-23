@@ -1,0 +1,61 @@
+15:46:15 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\zbl\Desktop\ov5640\vitis\test12\temp_xsdb_launch_script.tcl
+15:46:15 INFO  : Registering command handlers for Vitis TCF services
+15:46:19 INFO  : XSCT server has started successfully.
+15:46:19 INFO  : plnx-install-location is set to ''
+15:46:19 INFO  : Successfully done setting XSCT server connection channel  
+15:46:19 INFO  : Platform repository initialization has completed.
+15:46:22 INFO  : Successfully done setting workspace for the tool. 
+15:46:22 INFO  : Successfully done query RDI_DATADIR 
+15:47:32 INFO  : Result from executing command 'getProjects': system_wrapper
+15:47:32 INFO  : Result from executing command 'getPlatforms': 
+15:47:32 INFO  : Platform 'system_wrapper' is added to custom repositories.
+15:47:42 INFO  : Platform 'system_wrapper' is added to custom repositories.
+15:48:23 INFO  : Result from executing command 'getProjects': system_wrapper
+15:48:23 INFO  : Result from executing command 'getPlatforms': system_wrapper|C:/Users/zbl/Desktop/ov5640/vitis/test12/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+15:48:26 INFO  : Checking for BSP changes to sync application flags for project 'test'...
+15:48:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:48:49 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:48:49 INFO  : 'jtag frequency' command is executed.
+15:48:49 INFO  : Context for 'APU' is selected.
+15:48:49 INFO  : System reset is completed.
+15:48:52 INFO  : 'after 3000' command is executed.
+15:48:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+15:48:55 INFO  : FPGA configured successfully with bitstream "C:/Users/zbl/Desktop/ov5640/vitis/test12/system_wrapper.bit"
+15:48:55 INFO  : Context for 'APU' is selected.
+15:48:55 INFO  : Hardware design and registers information is loaded from 'C:/Users/zbl/Desktop/ov5640/vitis/test12/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+15:48:55 INFO  : 'configparams force-mem-access 1' command is executed.
+15:48:55 INFO  : Context for 'APU' is selected.
+15:48:55 INFO  : Sourcing of 'C:/Users/zbl/Desktop/ov5640/vitis/test12/test/_ide/psinit/ps7_init.tcl' is done.
+15:48:55 INFO  : 'ps7_init' command is executed.
+15:48:55 INFO  : 'ps7_post_config' command is executed.
+15:48:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:48:55 INFO  : The application 'C:/Users/zbl/Desktop/ov5640/vitis/test12/test/Debug/test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:48:55 INFO  : 'configparams force-mem-access 0' command is executed.
+15:48:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/zbl/Desktop/ov5640/vitis/test12/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/zbl/Desktop/ov5640/vitis/test12/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/zbl/Desktop/ov5640/vitis/test12/test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/zbl/Desktop/ov5640/vitis/test12/test/Debug/test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:48:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:48:56 INFO  : 'con' command is executed.
+15:48:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:48:56 INFO  : Launch script is exported to file 'C:\Users\zbl\Desktop\ov5640\vitis\test12\.sdk\launch_scripts\single_application_debug\debugger_test-default.tcl'
+16:32:41 INFO  : Disconnected from the channel tcfchan#2.

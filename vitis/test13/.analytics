@@ -1,0 +1,6 @@
+timestamp=[2022-10-23 16:32:49], mode=WORKBENCH_START, duration=0:00:03.935, duration_ms=3935, data={}
+timestamp=[2022-10-23 16:32:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.434, duration_ms=434, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2022-10-23 16:32:52], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.329, duration_ms=2329, data={}
+timestamp=[2022-10-23 16:34:01], mode=APP_CREATION, duration=0:00:22.580, duration_ms=22580, data={name=test, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=system_wrapper, application_type=application}
+timestamp=[2022-10-23 16:34:36], mode=PLATFORM_GENERATION, duration=0:00:28.844, duration_ms=28844, data={name=system_wrapper}
+timestamp=[2022-10-23 16:34:36], mode=BUILD, duration=0:00:00.622, duration_ms=622, data={name=test, configuration=Debug, clean_build=false}
