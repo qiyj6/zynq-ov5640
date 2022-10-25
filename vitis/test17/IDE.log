@@ -1,0 +1,153 @@
+20:48:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\zbl\Desktop\ov5640\vitis\test17\temp_xsdb_launch_script.tcl
+20:48:47 INFO  : Registering command handlers for Vitis TCF services
+20:48:50 INFO  : XSCT server has started successfully.
+20:48:50 INFO  : Platform repository initialization has completed.
+20:48:51 INFO  : Successfully done setting XSCT server connection channel  
+20:48:51 INFO  : plnx-install-location is set to ''
+20:48:51 INFO  : Successfully done query RDI_DATADIR 
+20:48:51 INFO  : Successfully done setting workspace for the tool. 
+20:49:28 INFO  : Result from executing command 'getProjects': system_wrapper
+20:49:28 INFO  : Result from executing command 'getPlatforms': 
+20:49:29 INFO  : Platform 'system_wrapper' is added to custom repositories.
+20:49:40 INFO  : Platform 'system_wrapper' is added to custom repositories.
+20:50:32 INFO  : Result from executing command 'getProjects': system_wrapper
+20:50:32 INFO  : Result from executing command 'getPlatforms': system_wrapper|C:/Users/zbl/Desktop/ov5640/vitis/test17/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+20:50:33 INFO  : Checking for BSP changes to sync application flags for project 'test'...
+20:50:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:50:54 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+20:50:54 INFO  : 'jtag frequency' command is executed.
+20:50:54 INFO  : Context for 'APU' is selected.
+20:50:54 INFO  : System reset is completed.
+20:50:57 INFO  : 'after 3000' command is executed.
+20:50:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+20:51:00 INFO  : FPGA configured successfully with bitstream "C:/Users/zbl/Desktop/ov5640/vitis/test17/system_wrapper.bit"
+20:51:00 INFO  : Context for 'APU' is selected.
+20:51:00 INFO  : Hardware design and registers information is loaded from 'C:/Users/zbl/Desktop/ov5640/vitis/test17/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+20:51:00 INFO  : 'configparams force-mem-access 1' command is executed.
+20:51:00 INFO  : Context for 'APU' is selected.
+20:51:00 INFO  : Sourcing of 'C:/Users/zbl/Desktop/ov5640/vitis/test17/test/_ide/psinit/ps7_init.tcl' is done.
+20:51:00 INFO  : 'ps7_init' command is executed.
+20:51:00 INFO  : 'ps7_post_config' command is executed.
+20:51:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:51:00 INFO  : The application 'C:/Users/zbl/Desktop/ov5640/vitis/test17/test/Debug/test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:51:00 INFO  : 'configparams force-mem-access 0' command is executed.
+20:51:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/zbl/Desktop/ov5640/vitis/test17/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/zbl/Desktop/ov5640/vitis/test17/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/zbl/Desktop/ov5640/vitis/test17/test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/zbl/Desktop/ov5640/vitis/test17/test/Debug/test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:51:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:51:01 INFO  : 'con' command is executed.
+20:51:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:51:01 INFO  : Launch script is exported to file 'C:\Users\zbl\Desktop\ov5640\vitis\test17\.sdk\launch_scripts\single_application_debug\debugger_test-default.tcl'
+20:52:58 INFO  : Disconnected from the channel tcfchan#2.
+20:52:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:52:59 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+20:52:59 INFO  : 'jtag frequency' command is executed.
+20:53:00 INFO  : Context for 'APU' is selected.
+20:53:00 INFO  : System reset is completed.
+20:53:03 INFO  : 'after 3000' command is executed.
+20:53:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+20:53:05 INFO  : FPGA configured successfully with bitstream "C:/Users/zbl/Desktop/ov5640/vitis/test17/system_wrapper.bit"
+20:53:05 INFO  : Context for 'APU' is selected.
+20:53:05 INFO  : Hardware design and registers information is loaded from 'C:/Users/zbl/Desktop/ov5640/vitis/test17/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+20:53:05 INFO  : 'configparams force-mem-access 1' command is executed.
+20:53:05 INFO  : Context for 'APU' is selected.
+20:53:05 INFO  : Sourcing of 'C:/Users/zbl/Desktop/ov5640/vitis/test17/test/_ide/psinit/ps7_init.tcl' is done.
+20:53:05 INFO  : 'ps7_init' command is executed.
+20:53:05 INFO  : 'ps7_post_config' command is executed.
+20:53:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:53:06 INFO  : The application 'C:/Users/zbl/Desktop/ov5640/vitis/test17/test/Debug/test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:53:06 INFO  : 'configparams force-mem-access 0' command is executed.
+20:53:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/zbl/Desktop/ov5640/vitis/test17/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/zbl/Desktop/ov5640/vitis/test17/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/zbl/Desktop/ov5640/vitis/test17/test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/zbl/Desktop/ov5640/vitis/test17/test/Debug/test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:53:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:53:06 INFO  : 'con' command is executed.
+20:53:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:53:06 INFO  : Launch script is exported to file 'C:\Users\zbl\Desktop\ov5640\vitis\test17\.sdk\launch_scripts\single_application_debug\debugger_test-default.tcl'
+20:53:46 INFO  : Disconnected from the channel tcfchan#3.
+20:53:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:53:47 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+20:53:47 INFO  : 'jtag frequency' command is executed.
+20:53:47 INFO  : Context for 'APU' is selected.
+20:53:47 INFO  : System reset is completed.
+20:53:50 INFO  : 'after 3000' command is executed.
+20:53:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+20:53:53 INFO  : FPGA configured successfully with bitstream "C:/Users/zbl/Desktop/ov5640/vitis/test17/system_wrapper.bit"
+20:53:53 INFO  : Context for 'APU' is selected.
+20:53:53 INFO  : Hardware design and registers information is loaded from 'C:/Users/zbl/Desktop/ov5640/vitis/test17/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+20:53:53 INFO  : 'configparams force-mem-access 1' command is executed.
+20:53:53 INFO  : Context for 'APU' is selected.
+20:53:53 INFO  : Sourcing of 'C:/Users/zbl/Desktop/ov5640/vitis/test17/test/_ide/psinit/ps7_init.tcl' is done.
+20:53:53 INFO  : 'ps7_init' command is executed.
+20:53:53 INFO  : 'ps7_post_config' command is executed.
+20:53:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:53:53 INFO  : The application 'C:/Users/zbl/Desktop/ov5640/vitis/test17/test/Debug/test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:53:53 INFO  : 'configparams force-mem-access 0' command is executed.
+20:53:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/zbl/Desktop/ov5640/vitis/test17/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/zbl/Desktop/ov5640/vitis/test17/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/zbl/Desktop/ov5640/vitis/test17/test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/zbl/Desktop/ov5640/vitis/test17/test/Debug/test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:53:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:53:53 INFO  : 'con' command is executed.
+20:53:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:53:53 INFO  : Launch script is exported to file 'C:\Users\zbl\Desktop\ov5640\vitis\test17\.sdk\launch_scripts\single_application_debug\debugger_test-default.tcl'
+21:28:51 INFO  : Disconnected from the channel tcfchan#4.

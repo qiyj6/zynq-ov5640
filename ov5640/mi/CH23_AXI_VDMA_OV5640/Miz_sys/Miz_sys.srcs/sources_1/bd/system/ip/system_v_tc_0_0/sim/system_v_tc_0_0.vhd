@@ -67,7 +67,7 @@ ENTITY system_v_tc_0_0 IS
     vblank_out : OUT STD_LOGIC;
     active_video_out : OUT STD_LOGIC;
     resetn : IN STD_LOGIC;
-    fsync_out : OUT STD_LOGIC_VECTOR(0 DOWNTO 0)
+    fsync_out : OUT STD_LOGIC_VECTOR(2 DOWNTO 0)
   );
 END system_v_tc_0_0;
 
@@ -205,7 +205,7 @@ ARCHITECTURE system_v_tc_0_0_arch OF system_v_tc_0_0 IS
       s_axi_rready : IN STD_LOGIC;
       irq : OUT STD_LOGIC;
       fsync_in : IN STD_LOGIC;
-      fsync_out : OUT STD_LOGIC_VECTOR(0 DOWNTO 0)
+      fsync_out : OUT STD_LOGIC_VECTOR(2 DOWNTO 0)
     );
   END COMPONENT v_tc;
   ATTRIBUTE X_INTERFACE_INFO : STRING;
@@ -243,18 +243,18 @@ BEGIN
       C_GEN_F1_VFRAME_SIZE => 750,
       C_GEN_HSYNC_START => 1390,
       C_GEN_HSYNC_END => 1430,
-      C_GEN_F0_VBLANK_HSTART => 1280,
-      C_GEN_F0_VBLANK_HEND => 1280,
+      C_GEN_F0_VBLANK_HSTART => 640,
+      C_GEN_F0_VBLANK_HEND => 640,
       C_GEN_F0_VSYNC_VSTART => 724,
       C_GEN_F0_VSYNC_VEND => 729,
-      C_GEN_F0_VSYNC_HSTART => 1280,
-      C_GEN_F0_VSYNC_HEND => 1280,
-      C_GEN_F1_VBLANK_HSTART => 1280,
-      C_GEN_F1_VBLANK_HEND => 1280,
+      C_GEN_F0_VSYNC_HSTART => 695,
+      C_GEN_F0_VSYNC_HEND => 695,
+      C_GEN_F1_VBLANK_HSTART => 640,
+      C_GEN_F1_VBLANK_HEND => 640,
       C_GEN_F1_VSYNC_VSTART => 724,
       C_GEN_F1_VSYNC_VEND => 729,
-      C_GEN_F1_VSYNC_HSTART => 1280,
-      C_GEN_F1_VSYNC_HEND => 1280,
+      C_GEN_F1_VSYNC_HSTART => 695,
+      C_GEN_F1_VSYNC_HEND => 695,
       C_FSYNC_HSTART0 => 0,
       C_FSYNC_VSTART0 => 0,
       C_FSYNC_HSTART1 => 0,
@@ -289,7 +289,7 @@ BEGIN
       C_FSYNC_VSTART15 => 0,
       C_MAX_PIXELS => 4096,
       C_MAX_LINES => 4096,
-      C_NUM_FSYNCS => 1,
+      C_NUM_FSYNCS => 3,
       C_INTERLACE_EN => 0,
       C_GEN_AUTO_SWITCH => 0,
       C_DETECT_EN => 0,

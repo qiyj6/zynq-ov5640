@@ -11,7 +11,7 @@
                         "type": "XSDB_V3",
                         "name": "dbg_hub",
                         "spec": "labtools_xsdbm_v3",
-                        "clk_input_freq_hz": "100000000"
+                        "clk_input_freq_hz": "168000004"
                     },
                     {
                         "type": "ILA_V3",
@@ -30,10 +30,27 @@
                                 "id": 0,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "system_i/cmos_pclk_i_1",
+                                        "isBus": false,
+                                        "parentNetId": 0
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
                                 "isVector": true,
                                 "leftIndex": 0,
                                 "rightIndex": 7,
-                                "portIndex": 0,
+                                "portIndex": 1,
                                 "nets": [
                                     {
                                         "name": "system_i/cmos_data_i_1",
@@ -66,20 +83,37 @@
                                         ]
                                     }
                                 ]
-                            },
+                            }
+                        ]
+                    }
+                ],
+                "parent_nets": [
+                    {
+                        "id": 0,
+                        "name": "cmos_pclk_i_IBUF_BUFG",
+                        "state_reg": [
                             {
-                                "name": "probe1",
-                                "id": 1,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": false,
-                                "leftIndex": 0,
-                                "rightIndex": 0,
-                                "portIndex": 1,
-                                "nets": [
+                                "name": "system_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/FSM_onehot_gen_rst_ic.curr_wrst_state_reg[0]",
+                                "states": [
                                     {
-                                        "name": "system_i/clk_wiz_1_clk_out1",
-                                        "isBus": false
+                                        "name": "WRST_OUT",
+                                        "val": "00100"
+                                    },
+                                    {
+                                        "name": "WRST_IN",
+                                        "val": "00010"
+                                    },
+                                    {
+                                        "name": "WRST_GO2IDLE",
+                                        "val": "10000"
+                                    },
+                                    {
+                                        "name": "WRST_EXIT",
+                                        "val": "01000"
+                                    },
+                                    {
+                                        "name": "WRST_IDLE",
+                                        "val": "00001"
                                     }
                                 ]
                             }

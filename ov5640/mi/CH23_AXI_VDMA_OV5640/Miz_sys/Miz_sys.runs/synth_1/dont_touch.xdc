@@ -54,14 +54,17 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_cam_conf
 # IP: bd/system/ip/system_clk_wiz_1_1/system_clk_wiz_1_1.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_clk_wiz_1_1 || ORIG_REF_NAME==system_clk_wiz_1_1} -quiet] -quiet
 
-# IP: bd/system/ip/system_ila_0_0/system_ila_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_ila_0_0 || ORIG_REF_NAME==system_ila_0_0} -quiet] -quiet
-
 # IP: bd/system/ip/system_xlconstant_0_1/system_xlconstant_0_1.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_xlconstant_0_1 || ORIG_REF_NAME==system_xlconstant_0_1} -quiet] -quiet
 
 # IP: bd/system/ip/system_rgb2gray_0_0/system_rgb2gray_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_rgb2gray_0_0 || ORIG_REF_NAME==system_rgb2gray_0_0} -quiet] -quiet
+
+# IP: bd/system/ip/system_ila_0_0/system_ila_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_ila_0_0 || ORIG_REF_NAME==system_ila_0_0} -quiet] -quiet
+
+# IP: bd/system/ip/system_clk_wiz_2_0/system_clk_wiz_2_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_clk_wiz_2_0 || ORIG_REF_NAME==system_clk_wiz_2_0} -quiet] -quiet
 
 # IP: bd/system/ip/system_auto_pc_0/system_auto_pc_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_auto_pc_0 || ORIG_REF_NAME==system_auto_pc_0} -quiet] -quiet
@@ -128,6 +131,14 @@ set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {R
 #dup# set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_ila_0_0 || ORIG_REF_NAME==system_ila_0_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
 
 # XDC: bd/system/ip/system_ila_0_0/system_ila_0_0_ooc.xdc
+
+# XDC: bd/system/ip/system_clk_wiz_2_0/system_clk_wiz_2_0_board.xdc
+set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_clk_wiz_2_0 || ORIG_REF_NAME==system_clk_wiz_2_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
+
+# XDC: bd/system/ip/system_clk_wiz_2_0/system_clk_wiz_2_0.xdc
+#dup# set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_clk_wiz_2_0 || ORIG_REF_NAME==system_clk_wiz_2_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
+
+# XDC: bd/system/ip/system_clk_wiz_2_0/system_clk_wiz_2_0_ooc.xdc
 
 # XDC: bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc
 

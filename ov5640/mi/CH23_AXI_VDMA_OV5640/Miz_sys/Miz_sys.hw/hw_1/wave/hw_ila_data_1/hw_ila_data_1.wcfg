@@ -9,29 +9,38 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="1024fs"></ZoomEndTime>
-      <Cursor1Time time="551fs"></Cursor1Time>
+      <ZoomStartTime time="267fs"></ZoomStartTime>
+      <ZoomEndTime time="1106fs"></ZoomEndTime>
+      <Cursor1Time time="757fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="257"></NameColumnWidth>
-      <ValueColumnWidth column_width="140"></ValueColumnWidth>
+      <ValueColumnWidth column_width="136"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="2" />
    <wave_markers>
+      <marker time="677" label="" />
+      <marker time="686" label="" />
+      <marker time="695" label="" />
+      <marker time="704" label="" />
+      <marker time="713" label="" />
+      <marker time="721" label="" />
+      <marker time="730" label="" />
+      <marker time="739" label="" />
+      <marker time="748" label="" />
    </wave_markers>
-   <wvobject fp_name="system_i/clk_wiz_1_clk_out1" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">system_i/clk_wiz_1_clk_out1</obj_property>
-      <obj_property name="ObjectShortName">clk_wiz_1_clk_out1</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
    <wvobject fp_name="system_i/cmos_data_i_1" type="array">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">system_i/cmos_data_i_1[7:0]</obj_property>
       <obj_property name="ObjectShortName">cmos_data_i_1[7:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="system_i/cmos_pclk_i_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">system_i/cmos_pclk_i_1</obj_property>
+      <obj_property name="ObjectShortName">cmos_pclk_i_1</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>

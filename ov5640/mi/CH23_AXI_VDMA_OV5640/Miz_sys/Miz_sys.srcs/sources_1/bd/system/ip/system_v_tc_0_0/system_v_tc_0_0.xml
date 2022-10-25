@@ -911,7 +911,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:69c60710</spirit:value>
+            <spirit:value>9:75f6175d</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -925,11 +925,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Oct 15 13:59:19 UTC 2022</spirit:value>
+            <spirit:value>Mon Oct 24 12:30:53 UTC 2022</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:69c60710</spirit:value>
+            <spirit:value>9:75f6175d</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -945,11 +945,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Oct 15 13:59:19 UTC 2022</spirit:value>
+            <spirit:value>Mon Oct 24 12:30:53 UTC 2022</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:69c60710</spirit:value>
+            <spirit:value>9:75f6175d</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -972,7 +972,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:d470045b</spirit:value>
+            <spirit:value>9:2215685d</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -988,11 +988,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Oct 15 13:59:19 UTC 2022</spirit:value>
+            <spirit:value>Mon Oct 24 12:30:53 UTC 2022</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:d470045b</spirit:value>
+            <spirit:value>9:2215685d</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1923,7 +1923,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_NUM_FSYNCS&apos;))-1">0</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_NUM_FSYNCS&apos;))-1">2</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -2206,7 +2206,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_NUM_FSYNCS</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_NUM_FSYNCS">1</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_NUM_FSYNCS">3</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_INTERLACE_EN</spirit:name>
@@ -2522,7 +2522,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART0</spirit:name>
       <spirit:displayName>Frame Sync 0 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART0" spirit:order="8" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART0" spirit:order="8" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2534,7 +2534,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART0</spirit:name>
       <spirit:displayName>Frame Sync 0 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART0" spirit:order="9" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART0" spirit:order="9" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2546,11 +2546,11 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART1</spirit:name>
       <spirit:displayName>Frame Sync 1 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART1" spirit:order="10" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART1" spirit:order="10" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.FSYNC_HSTART1">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.FSYNC_HSTART1">true</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:parameterInfo>
       </spirit:vendorExtensions>
@@ -2558,11 +2558,11 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART1</spirit:name>
       <spirit:displayName>Frame Sync 1 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART1" spirit:order="11" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART1" spirit:order="11" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.FSYNC_VSTART1">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.FSYNC_VSTART1">true</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:parameterInfo>
       </spirit:vendorExtensions>
@@ -2570,11 +2570,11 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART2</spirit:name>
       <spirit:displayName>Frame Sync 2 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART2" spirit:order="12" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART2" spirit:order="12" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.FSYNC_HSTART2">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.FSYNC_HSTART2">true</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:parameterInfo>
       </spirit:vendorExtensions>
@@ -2582,11 +2582,11 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART2</spirit:name>
       <spirit:displayName>Frame Sync 2 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART2" spirit:order="13" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART2" spirit:order="13" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.FSYNC_VSTART2">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.FSYNC_VSTART2">true</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:parameterInfo>
       </spirit:vendorExtensions>
@@ -2594,7 +2594,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART3</spirit:name>
       <spirit:displayName>Frame Sync 3 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART3" spirit:order="14" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART3" spirit:order="14" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2606,7 +2606,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART3</spirit:name>
       <spirit:displayName>Frame Sync 3 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART3" spirit:order="15" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART3" spirit:order="15" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2618,7 +2618,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART4</spirit:name>
       <spirit:displayName>Frame Sync 4 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART4" spirit:order="16" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART4" spirit:order="16" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2630,7 +2630,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART4</spirit:name>
       <spirit:displayName>Frame Sync 4 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART4" spirit:order="17" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART4" spirit:order="17" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2642,7 +2642,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART5</spirit:name>
       <spirit:displayName>Frame Sync 5 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART5" spirit:order="18" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART5" spirit:order="18" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2654,7 +2654,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART5</spirit:name>
       <spirit:displayName>Frame Sync 5 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART5" spirit:order="19" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART5" spirit:order="19" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2666,7 +2666,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART6</spirit:name>
       <spirit:displayName>Frame Sync 6 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART6" spirit:order="20" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART6" spirit:order="20" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2678,7 +2678,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART6</spirit:name>
       <spirit:displayName>Frame Sync 6 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART6" spirit:order="21" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART6" spirit:order="21" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2690,7 +2690,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART7</spirit:name>
       <spirit:displayName>Frame Sync 7 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART7" spirit:order="22" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART7" spirit:order="22" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2702,7 +2702,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART7</spirit:name>
       <spirit:displayName>Frame Sync 7 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART7" spirit:order="23" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART7" spirit:order="23" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2714,7 +2714,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART8</spirit:name>
       <spirit:displayName>Frame Sync 8 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART8" spirit:order="24" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART8" spirit:order="24" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2726,7 +2726,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART8</spirit:name>
       <spirit:displayName>Frame Sync 8 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART8" spirit:order="25" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART8" spirit:order="25" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2738,7 +2738,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART9</spirit:name>
       <spirit:displayName>Frame Sync 9 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART9" spirit:order="26" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART9" spirit:order="26" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2750,7 +2750,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART9</spirit:name>
       <spirit:displayName>Frame Sync 9 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART9" spirit:order="27" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART9" spirit:order="27" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2762,7 +2762,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART10</spirit:name>
       <spirit:displayName>Frame Sync 10 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART10" spirit:order="28" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART10" spirit:order="28" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2774,7 +2774,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART10</spirit:name>
       <spirit:displayName>Frame Sync 10 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART10" spirit:order="29" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART10" spirit:order="29" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2786,7 +2786,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART11</spirit:name>
       <spirit:displayName>Frame Sync 11 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART11" spirit:order="30" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART11" spirit:order="30" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2798,7 +2798,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART11</spirit:name>
       <spirit:displayName>Frame Sync 11 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART11" spirit:order="31" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART11" spirit:order="31" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2810,7 +2810,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART12</spirit:name>
       <spirit:displayName>Frame Sync 12 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART12" spirit:order="32" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART12" spirit:order="32" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2822,7 +2822,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART12</spirit:name>
       <spirit:displayName>Frame Sync 12 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART12" spirit:order="33" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART12" spirit:order="33" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2834,7 +2834,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART13</spirit:name>
       <spirit:displayName>Frame Sync 13 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART13" spirit:order="34" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART13" spirit:order="34" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2846,7 +2846,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART13</spirit:name>
       <spirit:displayName>Frame Sync 13 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART13" spirit:order="35" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART13" spirit:order="35" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2858,7 +2858,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART14</spirit:name>
       <spirit:displayName>Frame Sync 14 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART14" spirit:order="36" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART14" spirit:order="36" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2870,7 +2870,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART14</spirit:name>
       <spirit:displayName>Frame Sync 14 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART14" spirit:order="37" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART14" spirit:order="37" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2882,7 +2882,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_HSTART15</spirit:name>
       <spirit:displayName>Frame Sync 15 Horizontal Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART15" spirit:order="38" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_HSTART15" spirit:order="38" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -2894,7 +2894,7 @@
     <spirit:parameter>
       <spirit:name>FSYNC_VSTART15</spirit:name>
       <spirit:displayName>Frame Sync 15 Vertical Start</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART15" spirit:order="39" spirit:minimum="0" spirit:maximum="8191" spirit:rangeType="long">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FSYNC_VSTART15" spirit:order="39" spirit:minimum="0" spirit:maximum="4095" spirit:rangeType="long">0</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -3451,7 +3451,7 @@
     <spirit:parameter>
       <spirit:name>frame_syncs</spirit:name>
       <spirit:displayName>Frame Syncs</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.frame_syncs" spirit:order="7.5" spirit:minimum="1" spirit:maximum="16" spirit:rangeType="long">1</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.frame_syncs" spirit:order="7.5" spirit:minimum="1" spirit:maximum="16" spirit:rangeType="long">3</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -3497,6 +3497,7 @@
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.HAS_AXI4_LITE" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.VIDEO_MODE" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.enable_detection" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.frame_syncs" xilinx:valueSource="user"/>
       </xilinx:configElementInfos>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
